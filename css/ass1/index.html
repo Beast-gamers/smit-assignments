@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        #main-heading {
+            color: darkblue;
+            margin-bottom: 20px;
+        }
+
+        .container > p {
+            color: green;
+        }
+
+        .article p {
+            color: purple;
+        }
+
+        h2 + p {
+            font-weight: bold;
+        }
+
+        h3 ~ p {
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="main-heading">CSS Selectors</h1>
+
+    <div class="container">
+        <p>This paragraph is selected using the child selector.</p>
+
+        <div>
+            <p>This paragraph is not a direct child of .container.</p>
+        </div>
+    </div>
+
+    <div class="article">
+        <h2>Descendant Selector</h2>
+        <p>This paragraph is selected using a descendant selector.</p>
+
+        <div>
+            <p>This nested paragraph is also selected using a descendant selector.</p>
+        </div>
+    </div>
+
+    <h2>Adjacent Sibling Selector</h2>
+    <p>This paragraph comes immediately after h2.</p>
+    <p>This paragraph is not selected by h2 + p.</p>
+
+    <h3>General Sibling Selector</h3>
+    <p>This is a general sibling of h3.</p>
+    <div>This is another element.</div>
+    <p>This is also a general sibling of h3.</p>
+
+</body>
+</html>
