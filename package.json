@@ -1,0 +1,16 @@
+{
+  "name": "smit-assignments",
+  "version": "1.0.0",
+  "description": "SMIT assignments - css, html, and projects served by Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
