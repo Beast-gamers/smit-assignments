@@ -1,0 +1,1380 @@
+/* ==========================================================================
+   Salt'n Pepper — homepage clone
+   Hand-written CSS (no framework, no JavaScript)
+   ========================================================================== */
+
+/* ------------------------------- fonts ---------------------------------- */
+@font-face {
+  font-family: 'FuturaK';
+  src: url('../fonts/futurak.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+@font-face {
+  font-family: 'Apercu';
+  src: url('../fonts/aperculight.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+@font-face {
+  font-family: 'Butler';
+  src: url('../fonts/butlerbold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+/* ------------------------------- tokens --------------------------------- */
+:root {
+  --red: #ed1c24;
+  --green: #28a745;
+  --black: #000;
+  --white: #fff;
+  --soft: rgba(255, 255, 255, .7);
+  --soft-2: rgba(255, 255, 255, .6);
+  --panel: rgba(255, 255, 255, .06);
+  --line: rgba(255, 255, 255, .08);
+  --border-glass: rgba(255, 255, 255, .3);
+  --gutter: 15px;
+  --container: 1140px;
+  --font-body: 'Apercu', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* ------------------------------- reset ---------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--black);
+  color: var(--white);
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, figure {
+  margin: 0;
+}
+
+button, input, select {
+  font: inherit;
+  color: inherit;
+}
+
+.sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 2000;
+  padding: 10px 16px;
+  background: var(--red);
+  color: #fff;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+/* generic icons coming from the inline sprite */
+.ic {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  flex: none;
+}
+
+.ic--phone {
+  transform: rotate(90deg);
+  margin: 0 4px 0 -4px;
+}
+
+/* ------------------------------ layout ---------------------------------- */
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
+/* section headings */
+.heading {
+  text-align: center;
+}
+
+.heading h2 {
+  font-family: 'Butler', Georgia, serif;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.heading p {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: .03em;
+  color: var(--soft);
+  margin-bottom: 48px;
+}
+
+.heading h2 small {
+  font-size: 26px;
+  line-height: 31px;
+}
+
+/* the “Salt'n Pepper” logotype rendered in FuturaK */
+.logo-text {
+  font-family: 'FuturaK', 'Apercu', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 62px;
+  color: var(--white);
+}
+
+.logo-text-sm {
+  font-family: 'FuturaK', 'Apercu', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 29px;
+  color: var(--white);
+}
+
+/* ------------------------------ buttons --------------------------------- */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--red);
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.chip .ic {
+  font-size: 11px;
+}
+
+.chip--arrow .ic {
+  transform: rotate(-37deg);
+}
+
+.btn-ghost {
+  display: inline-block;
+  width: 174px;
+  height: 50px;
+  border: 1px solid var(--border-glass);
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  color: var(--white);
+}
+
+.btn-ghost:hover {
+  border-color: var(--white);
+}
+
+.btn-outline {
+  border: 1px solid #fff;
+  border-radius: 35px;
+}
+
+.btn-red {
+  display: inline-flex;
+  align-items: center;
+  background: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 35px;
+}
+
+.btn-red:hover {
+  background: #d5181f;
+  border-color: #d5181f;
+}
+
+/* =============================== HEADER ================================= */
+.site-header {
+  display: block;
+  background: var(--black);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 92px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.nav-brand img {
+  width: 165px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.nav-links a {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 17px;
+}
+
+.nav-links a.btn-outline,
+.nav-links a.btn-red {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 14px;
+}
+
+.nav-links a.btn-outline {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.nav-links a.btn-red {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+/* ============================ MOBILE HEADER ============================= */
+.mobile-header {
+  display: none;
+}
+
+.menu-toggle {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ============================ BANNER SLIDER ============================= */
+/* CSS-only carousel driven by :target — no JavaScript required. */
+.banner {
+  position: relative;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+}
+
+.slider .slide {
+  display: none;
+}
+
+.slider:not(:has(.slide:target)) .slide:first-of-type,
+.slider .slide:target {
+  display: block;
+}
+
+.slider .slide a {
+  display: block;
+}
+
+.slider .slide img {
+  width: 100%;
+}
+
+.slider--mobile {
+  display: none;
+}
+
+.dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 18px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dots a {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .4);
+  transition: width .25s, background-color .25s;
+}
+
+.dots a:hover {
+  background: rgba(255, 255, 255, .75);
+}
+
+.dots a:first-child {
+  width: 26px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+/* reset + activate the targeted dot (works in both sliders) */
+.slider:has(.slide:target) .dots a {
+  width: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .4);
+}
+
+.slider:has(#d1:target) .dots a:nth-child(1),
+.slider:has(#d2:target) .dots a:nth-child(2),
+.slider:has(#d3:target) .dots a:nth-child(3),
+.slider:has(#d4:target) .dots a:nth-child(4),
+.slider:has(#d5:target) .dots a:nth-child(5),
+.slider:has(#m1:target) .dots a:nth-child(1),
+.slider:has(#m2:target) .dots a:nth-child(2),
+.slider:has(#m3:target) .dots a:nth-child(3),
+.slider:has(#m4:target) .dots a:nth-child(4),
+.slider:has(#m5:target) .dots a:nth-child(5),
+.slider:has(#m6:target) .dots a:nth-child(6) {
+  width: 26px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+/* ================================ BRANDS ================================ */
+.brands {
+  position: relative;
+  overflow: hidden;
+  padding: 70px 0;
+}
+
+.heading--brands h2 {
+  font-family: 'Apercu', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 8px;
+}
+
+.heading--brands p {
+  margin-bottom: 40px;
+}
+
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin: 0 -15px;
+}
+
+.brand-item {
+  padding: 15px;
+  text-align: center;
+}
+
+.brand-figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+}
+
+.brand-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #fff;
+  padding: 0 19px;
+  border-radius: 3px;
+}
+
+.brand-item .btn-ghost {
+  margin-top: 24px;
+}
+
+/* ====================== RESTAURANT FRANCHISES (full) ==================== */
+.restaurant-franchises {
+  position: relative;
+  overflow: hidden;
+  background: var(--panel);
+  padding: 70px;
+}
+
+.restaurant-franchises .heading {
+  position: relative;
+  z-index: 1;
+}
+
+.deco {
+  position: absolute;
+  pointer-events: none;
+}
+
+.deco img {
+  width: 100%;
+  height: auto;
+}
+
+.deco--arc {
+  right: 32px;
+  top: 32px;
+  width: 180px;
+  z-index: 0;
+}
+
+.split {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 48px;
+}
+
+.split:last-child {
+  margin-bottom: 0;
+}
+
+.split-media img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.split-body small {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: .48em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 8px;
+}
+
+.split-body h3 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 24px;
+}
+
+.split-body p {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: .03em;
+  color: var(--soft);
+  margin-bottom: 10px;
+}
+
+.split-body p.line {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.split-body p.line .ic {
+  font-size: 15px;
+  margin-top: 2px;
+  color: var(--soft);
+}
+
+.split-body p.line a {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.split-body .btn-dirs {
+  margin-top: 20px;
+  line-height: 48px;
+}
+
+.btn-dirs--green {
+  background: var(--green);
+  border-color: var(--green);
+}
+
+.btn-dirs--green .chip {
+  color: var(--green);
+}
+
+/* ========================== EXPRESS FRANCHISES ========================== */
+.express-franchises {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 70px 0 38px;
+}
+
+.deco--left {
+  left: 33px;
+  top: 40px;
+  width: 250px;
+  z-index: -1;
+}
+
+.deco--right {
+  display: none;
+  right: 0;
+  bottom: 0;
+  width: 130px;
+  z-index: -1;
+}
+
+.card-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 30px;
+}
+
+.card-express {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.card-express img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-express small {
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: .48em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.card-express h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 18px;
+}
+
+.card-express h3 .logo-text-sm {
+  font-size: 24px;
+}
+
+.card-express p {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: .03em;
+  color: var(--soft);
+  margin-bottom: 12px;
+}
+
+.clamp {
+  height: 36px;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.card-express p a {
+  font-size: 14px;
+  color: var(--soft);
+}
+
+.card-express .btn-dirs--sm {
+  margin-top: 20px;
+  line-height: 48px;
+}
+
+/* ========================== VILLAGE FRANCHISE ========================== */
+.village {
+  position: relative;
+  overflow: hidden;
+  background: var(--panel);
+  padding: 48px 0;
+}
+
+.village .heading {
+  margin-bottom: 32px;
+}
+
+.village .split-media img {
+  border-radius: 0;
+}
+
+/* ============================ OPENING SOON ============================= */
+.opening-soon {
+  position: relative;
+  z-index: 11;
+  padding: 60px 0 38px;
+}
+
+.opening-soon .heading {
+  margin-bottom: 32px;
+}
+
+.soon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 30px;
+}
+
+/* 7 cards in a 3-up grid leave an orphan in the last row — centre it */
+.soon-grid .card-soon:last-child {
+  grid-column: 1 / -1;
+  width: calc((100% - 60px) / 3);
+  max-width: 350px;
+  justify-self: center;
+}
+
+.card-soon {
+  height: 230px;
+  background: #fff;
+  border-radius: 4px;
+  text-align: center;
+  padding: 25px 24px;
+  margin: 0 auto;
+  color: #000;
+}
+
+.card-soon img {
+  display: block;
+  margin: 0 auto 16px;
+  width: 56px;
+  height: 56px;
+}
+
+.card-soon small {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: .48em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.card-soon h4 {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.card-soon h4 .logo-text-sm {
+  display: block;
+  color: #000;
+  font-size: 24px;
+  margin-right: 0;
+}
+
+.card-soon p {
+  font-size: 21px;
+  line-height: 29px;
+  font-weight: 700;
+  color: #000;
+}
+
+.card-soon h4.empty {
+  height: 30px;
+}
+
+/* ================================ FOOTER ================================ */
+.site-footer {
+  position: relative;
+  float: left;
+  width: 100%;
+  background: var(--panel);
+  padding: 70px 0 0;
+}
+
+.footer-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.5fr .8fr 1fr .8fr;
+  gap: 30px 45px;
+  padding-bottom: 55px;
+}
+
+.footer-about .footer-logo {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.footer-about .footer-logo img {
+  width: 140px;
+}
+
+.footer-about p {
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: .03em;
+  color: var(--soft);
+  margin-bottom: 24px;
+}
+
+.footer-legal li {
+  padding-bottom: 8px;
+}
+
+.footer-legal a {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: .03em;
+  color: var(--soft-2);
+}
+
+.footer-col h3 {
+  font-family: 'Butler', Georgia, serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.footer-col li {
+  padding-bottom: 16px;
+}
+
+.footer-col li:last-child {
+  padding-bottom: 0;
+}
+
+.footer-col li a {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: .03em;
+  color: var(--soft);
+}
+
+.footer-col li a:hover {
+  color: var(--soft-2);
+}
+
+.footer-col .footer-label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: var(--red);
+  color: #fff;
+  font-size: 17px;
+}
+
+.social a:hover {
+  background: #d5181f;
+}
+
+.store-badges {
+  text-align: center;
+}
+
+.store-badges li,
+.store-badges a {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.store-badges img {
+  display: inline-block;
+}
+
+.footer-deco {
+  position: absolute;
+  left: 30px;
+  bottom: 0;
+  z-index: 0;
+  width: 180px;
+}
+
+.footer-deco img {
+  width: 100%;
+}
+
+.copyright {
+  width: 100%;
+  border-top: 1px solid var(--line);
+  color: var(--soft-2);
+}
+
+.copyright-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.copyright-row p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: .03em;
+  color: var(--soft);
+}
+
+.copyright-row p:first-child {
+  text-align: left;
+}
+
+.copyright-row p:last-child {
+  text-align: right;
+}
+
+.copyright-row a {
+  color: var(--soft);
+}
+
+.credit-bar {
+  background: #000;
+  padding: 14px 0;
+}
+
+.credit-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.credit-row span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  color: #fff;
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+
+/* ---- <= 1366px ---- */
+@media (max-width: 1366px) {
+  .brands {
+    padding-bottom: 130px;
+  }
+
+  .deco--arc {
+    width: 150px;
+  }
+}
+
+/* ---- <= 1250px ---- */
+@media (max-width: 1250px) {
+  .nav-links {
+    gap: 24px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+  }
+
+  .deco--left {
+    width: 180px;
+  }
+
+  .soon-grid {
+    gap: 24px;
+  }
+}
+
+/* ---- <= 991px : switch to the mobile header ---- */
+@media screen and (max-width: 991px) {
+  .site-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .slider--desktop {
+    display: none;
+  }
+
+  .slider--mobile {
+    display: block;
+  }
+
+  .slider--mobile .slide img {
+    max-height: 62vh;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .dots {
+    bottom: 12px;
+    gap: 8px;
+  }
+
+  .mobile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    height: 64px;
+    padding: 6px 15px;
+    background: var(--black);
+    border-bottom: 1px solid var(--line);
+  }
+
+  .burger {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    padding-right: 10px;
+  }
+
+  .btn-red--sm {
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .btn-red--sm .chip {
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+  }
+
+  .btn-red--sm .chip .ic {
+    font-size: 9px;
+  }
+
+  .drawer-scrim {
+    position: fixed;
+    inset: 0;
+    z-index: 900;
+    background: rgba(0, 0, 0, .55);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s, visibility .3s;
+  }
+
+  .menu-toggle:checked ~ .drawer-scrim {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    background: #fefefe;
+    color: #000;
+    box-shadow: 3px 0 3px rgba(0, 0, 0, .2);
+    transition: width .3s ease;
+  }
+
+  .menu-toggle:checked ~ .drawer {
+    width: 250px;
+  }
+
+  .drawer-close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    display: flex;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .drawer ul {
+    padding: 60px 0 0;
+  }
+
+  .drawer li {
+    border-bottom: 1px solid #cfcfcf;
+    margin: 0 10px;
+  }
+
+  .drawer a {
+    display: block;
+    padding: 12px 10px;
+    font-size: 14px;
+    color: #000;
+  }
+
+  .drawer a .chip {
+    float: right;
+    margin-top: 2px;
+  }
+
+  .heading h2 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .heading p {
+    margin-bottom: 32px;
+  }
+
+  .logo-text {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .heading--brands h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .brands {
+    padding: 50px 0;
+  }
+
+  .brand-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .restaurant-franchises {
+    padding: 48px 0;
+  }
+
+  .deco--arc {
+    right: 18px;
+    top: 18px;
+    width: 110px;
+  }
+
+  .split {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .split--reverse .split-body {
+    order: 2;
+  }
+
+  .split-body h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .logo-text-sm {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .express-franchises {
+    padding: 48px 0 38px;
+  }
+
+  .deco--left {
+    width: 143px;
+  }
+
+  .deco--right {
+    display: block;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .soon-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* keep the orphan centred in the 2-up layout too */
+  .soon-grid .card-soon:last-child {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .card-soon {
+    height: auto;
+    min-height: 230px;
+  }
+
+  .village {
+    padding: 40px 0;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1.1fr 1fr;
+    gap: 30px 40px;
+  }
+
+  .footer-deco {
+    display: none;
+  }
+}
+
+/* ---- <= 767px : phones ---- */
+@media (max-width: 767px) {
+  .heading h2,
+  .heading--brands h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .heading h2 small {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .heading p {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 24px;
+  }
+
+  .logo-text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .brand-grid {
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+
+  .brand-item {
+    padding: 15px 0;
+  }
+
+  .brands {
+    padding: 32px 0;
+  }
+
+  .restaurant-franchises {
+    padding: 32px 0;
+  }
+
+  .express-franchises {
+    padding: 32px 0;
+  }
+
+  .deco--arc {
+    right: 12px;
+    top: -40px;
+    width: 110px;
+  }
+
+  .deco--left {
+    left: 0;
+    bottom: 0;
+    top: auto;
+    width: 150px;
+  }
+
+  .split {
+    margin-bottom: 34px;
+  }
+
+  .split-body {
+    text-align: center;
+  }
+
+  .split-body p.line {
+    justify-content: center;
+  }
+
+  .split-body h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .split-body .logo-text-sm {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .split-body .btn-dirs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-grid,
+  .soon-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* single column — no orphan to centre */
+  .soon-grid .card-soon:last-child {
+    grid-column: auto;
+    width: 100%;
+  }
+
+  .card-express img {
+    height: 200px;
+    margin-top: 24px;
+  }
+
+  .village {
+    padding: 32px 15px;
+  }
+
+  .village .heading {
+    margin-bottom: 24px;
+  }
+
+  .opening-soon {
+    padding: 32px 0;
+  }
+
+  .opening-soon .heading {
+    margin-bottom: 24px;
+  }
+
+  .card-soon h4 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .card-soon h4 .logo-text-sm {
+    font-size: 20px;
+  }
+
+  .card-soon p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .site-footer {
+    padding: 40px 0 0;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 22px 0;
+    padding-bottom: 32px;
+  }
+
+  .footer-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-about p {
+    text-align: center;
+  }
+
+  .social {
+    justify-content: center;
+  }
+
+  .copyright-row,
+  .credit-row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .copyright-row p:first-child,
+  .copyright-row p:last-child {
+    text-align: center;
+  }
+
+  .copyright-row p {
+    padding-bottom: 4px;
+  }
+
+  .credit-row span:first-child {
+    padding-bottom: 8px;
+  }
+}
+
+/* ---- <= 380px ---- */
+@media (max-width: 380px) {
+  .btn-red--sm {
+    font-size: 11px;
+    padding: 5px 8px;
+  }
+
+  .card-express p {
+    font-size: 13px;
+  }
+}
+
+/* ---- hover only on real pointers ---- */
+@media (hover: none) {
+  .dots a:hover {
+    background: rgba(255, 255, 255, .4);
+  }
+}
