@@ -1,0 +1,530 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    color: #1d1d1f;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Global Navigation */
+.global-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    height: 44px;
+    transition: all 0.3s ease;
+}
+
+.nav-content {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 22px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    list-style: none;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -.01em;
+    padding: 0 8px;
+    transition: color 0.3s ease;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-link-apple {
+    font-size: 20px;
+}
+
+/* Main Content */
+main {
+    margin-top: 44px;
+}
+
+/* Hero Sections */
+.hero {
+    position: relative;
+    height: 70vh;
+    min-height: 580px;
+    max-height: 820px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    max-width: 700px;
+}
+
+.hero-headline {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.08349;
+    letter-spacing: -.002em;
+    margin-bottom: 6px;
+}
+
+.hero-subheadline {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.16667;
+    letter-spacing: .009em;
+    margin-bottom: 13px;
+}
+
+.hero-copy {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.19048;
+    letter-spacing: .011em;
+    color: rgba(29, 29, 31, 0.7);
+    margin-bottom: 15px;
+}
+
+.hero-links {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+
+.link {
+    color: #0066cc;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link i {
+    font-size: 16px;
+    margin-left: 4px;
+}
+
+.dark-theme {
+    color: #fff;
+}
+
+.dark-theme .hero-copy {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-theme .link {
+    color: #2997ff;
+}
+
+/* Hero Backgrounds */
+.hero-iphone-18-pro {
+    background-image: url('images/hero_iphone_18_pro.jpg');
+    background-color: #000;
+}
+
+.hero-iphone-duo {
+    background-image: url('images/hero_iphone_duo.jpg');
+    background-color: #f2f2f2;
+}
+
+.hero-watch-ultra-3 {
+    background-image: url('images/hero_watch_series12.jpg');
+    background-color: #000;
+}
+
+/* Series Labels */
+.series {
+    display: block;
+    color: #fd6b6b;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.ultra {
+    color: #f5a623;
+}
+
+/* Promo Grid */
+.promo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 0 12px 12px;
+}
+
+.promo-item {
+    position: relative;
+    height: 65vh;
+    min-height: 500px;
+    max-height: 700px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.promo-content {
+    position: relative;
+    z-index: 1;
+    padding: 0 30px;
+    max-width: 400px;
+}
+
+.promo-headline {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.125;
+    letter-spacing: .002em;
+    margin-bottom: 4px;
+}
+
+.promo-subheadline {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.21053;
+    letter-spacing: .012em;
+    margin-bottom: 12px;
+}
+
+.promo-links {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+
+.promo-headline i {
+    margin-right: 4px;
+}
+
+/* Promo Backgrounds */
+.promo-apple-watch-series {
+    background-image: url('images/promo_watch_ultra4.jpg');
+    background-color: #000;
+}
+
+.promo-airpods-5 {
+    background-image: url('images/promo_airpods5.jpg');
+    background-color: #f2f2f2;
+}
+
+.promo-macbook-pro {
+    background-image: url('images/promo_macbookpro.jpg');
+    background-color: #000;
+}
+
+.promo-ipad {
+    background-image: url('images/promo_ipad_a16.jpg');
+    background-color: #fbfbfd;
+}
+
+.promo-vision {
+    background-image: url('images/promo_vision_pro.jpg');
+    background-color: #000;
+}
+
+.promo-card {
+    background-image: url('images/promo_apple_card.jpg');
+    background-color: #fbfbfd;
+}
+
+/* Footer */
+.footer {
+    background-color: #f5f5f7;
+    color: #6e6e73;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    padding: 40px 0 20px;
+}
+
+.footer-content {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 22px;
+}
+
+.footer-note {
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-note p {
+    margin-bottom: 10px;
+}
+
+.footer-directory {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.directory-column h4 {
+    color: #1d1d1f;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.directory-column ul li {
+    margin-bottom: 8px;
+}
+
+.directory-column ul li a {
+    color: #424245;
+    transition: color 0.3s ease;
+}
+
+.directory-column ul li a:hover {
+    color: #1d1d1f;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #d2d2d7;
+    padding-top: 20px;
+}
+
+.footer-shop {
+    margin-bottom: 10px;
+}
+
+.footer-shop a {
+    color: #0066cc;
+}
+
+.footer-legal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.copyright {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+}
+
+.legal-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.legal-links li:not(:last-child)::after {
+    content: "|";
+    margin-left: 15px;
+    color: #d2d2d7;
+}
+
+.legal-links a, .locale a {
+    color: #424245;
+}
+
+.legal-links a:hover, .locale a:hover {
+    text-decoration: underline;
+}
+
+.locale {
+    margin-left: auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1068px) {
+    .hero {
+        height: 65vh;
+        min-height: 500px;
+    }
+    
+    .hero-headline {
+        font-size: 40px;
+    }
+    
+    .hero-subheadline {
+        font-size: 24px;
+    }
+    
+    .promo-item {
+        height: 55vh;
+        min-height: 450px;
+        padding-top: 40px;
+    }
+    
+    .promo-headline {
+        font-size: 24px;
+    }
+    
+    .promo-subheadline {
+        font-size: 19px;
+    }
+    
+    .promo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 734px) {
+    .nav-content {
+        padding: 0 16px;
+    }
+    
+    .nav-list {
+        justify-content: space-between;
+        gap: 0;
+    }
+    
+    .nav-item:not(:first-child):not(:last-child):not(:nth-last-child(2)) {
+        display: none;
+    }
+    
+    .nav-link {
+        padding: 0 6px;
+    }
+    
+    .hero {
+        height: 60vh;
+        min-height: 480px;
+        background-position: center bottom;
+    }
+    
+    .hero-content {
+        padding: 0 16px;
+        margin-top: -60px;
+    }
+    
+    .hero-headline {
+        font-size: 32px;
+    }
+    
+    .hero-subheadline {
+        font-size: 19px;
+    }
+    
+    .hero-copy {
+        font-size: 17px;
+    }
+    
+    .hero-links {
+        font-size: 17px;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .promo-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding: 0 12px 12px;
+    }
+    
+    .promo-item {
+        height: 60vh;
+        min-height: 480px;
+        padding-top: 40px;
+        background-position: center bottom;
+    }
+    
+    .promo-content {
+        padding: 0 16px;
+        max-width: 100%;
+    }
+    
+    .promo-headline {
+        font-size: 24px;
+    }
+    
+    .promo-subheadline {
+        font-size: 17px;
+    }
+    
+    .promo-links {
+        font-size: 17px;
+        gap: 16px;
+    }
+    
+    .footer-directory {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .footer-legal {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .legal-links {
+        gap: 10px;
+    }
+    
+    .legal-links li:not(:last-child)::after {
+        margin-left: 10px;
+    }
+    
+    .locale {
+        margin-left: 0;
+    }
+}
