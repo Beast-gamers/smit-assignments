@@ -1,0 +1,2 @@
+const t=["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE","GB"];var a=async({store:r})=>{await r.dispatch("geo/load");const e=t.includes((r.state.geo.countryCode||"").toUpperCase());return{isNecessaryAllowed(){return!0},isPerformanceAllowed(){return!e},isFunctionalAllowed(){return!e},isTargetingAllowed(){return!e}}};export{a as default};
+//# sourceMappingURL=https://upwork-usw2-staging-assets-jsmaps.s3.us-west-2.amazonaws.com/Brontes/_nuxt/gdpr.AE-oPjw_.js.map

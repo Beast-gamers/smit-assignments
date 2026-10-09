@@ -1,0 +1,2 @@
+var p=async a=>{const e=async()=>{const o=await a.$rumRoutePageId?.(),r=a.route.meta?.reduce?.((t,l)=>({...t,...l}),[]),i=`${a.base.replace(/\/+$/,"")}${a.route.fullPath}`;a.store.commit("profiling/addProfile",{profile_type:"page",routeName:a.route.name,rumPageId:o,url:i,isModal:r?.isModal})};a.app.router.afterEach(e),a.store.state.profiling.primaryProfile.application_mode==="spa"&&await e()};export{p as default};
+//# sourceMappingURL=https://upwork-usw2-staging-assets-jsmaps.s3.us-west-2.amazonaws.com/Brontes/_nuxt/plugin.C0R2BGwS.js.map

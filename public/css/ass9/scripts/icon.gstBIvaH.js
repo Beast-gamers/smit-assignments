@@ -1,0 +1,2 @@
+import{_ as o,o as t,c as a,e as c,i as s,n as i}from"./entry.DyLJOV_i.js";const r={name:"UpCIcon",props:{icon:{default:null,type:[Object,Function]},size:{default:"md",type:String,validator:e=>["sm","md","lg","xl"].includes(e)}},emits:["mounted"],mounted(){this.$emit("mounted")}};function l(e,m,n,d,u,p){return t(),a("div",{class:i(`air3-icon ${n.size}`)},[(t(),c(s(n.icon)))],2)}var f=o(r,[["render",l]]);export{f as default};
+//# sourceMappingURL=https://upwork-usw2-staging-assets-jsmaps.s3.us-west-2.amazonaws.com/Brontes/_nuxt/icon.gstBIvaH.js.map

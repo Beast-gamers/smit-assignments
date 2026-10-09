@@ -1,0 +1,155 @@
+/*
+ * Phone responsiveness fixes for the captured landing page.
+ *
+ * Problem: the fixed visitor nav (position:fixed; width:100%) and its flex
+ * children have a min-content wider than the device width, which expands the
+ * mobile layout viewport (e.g. 443px on a 390px phone) and produces a page that
+ * scrolls horizontally / renders zoomed-out on phones.
+ *
+ * Fixes:
+ *  - clip horizontal overflow at the document level (uses clip, not hidden, so
+ *    position:sticky/fixed behaviour and vertical scrolling are preserved)
+ *  - let the nav and its mobile controls shrink below their min-content
+ *  - collapse wide grids/stacked sections at phone widths
+ *  - keep media fluid
+ *
+ * Everything except the overflow guard is scoped to phone widths so tablet and
+ * desktop rendering are untouched.
+ */
+
+/* Document-level guard (safe at every width).
+   `hidden` is an old-browser fallback; `clip` wins where supported and, unlike
+   `hidden`, does not create a scroll container (keeps sticky/fixed working). */
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-x: clip;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+/* Fluid media everywhere. */
+img,
+video,
+iframe,
+embed,
+object,
+svg {
+  max-width: 100%;
+}
+
+/* ------------------------------------------------------------------ */
+/* Phones (< 768px)                                                     */
+/* ------------------------------------------------------------------ */
+@media (max-width: 767.98px) {
+
+  /* Container gutters should not get too small. */
+  .container,
+  .container-visitor {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  /* --- Top navigation --- */
+  .visitor-nav-v2-holder,
+  .nav-v2 {
+    max-width: 100vw;
+  }
+
+  .nav-header-wrapper {
+    padding-left: 12px;
+    padding-right: 12px;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .nav-header {
+    min-width: 0;
+    max-width: 100%;
+    gap: 8px;
+  }
+
+  .nav-brand {
+    min-width: 0;
+    width: auto;
+    flex-shrink: 0;
+  }
+
+  .nav-visitor-mobile-right {
+    min-width: 0;
+    flex: 0 1 auto;
+  }
+
+  .nav-visitor-mobile-right .vs-width-100 {
+    width: auto !important;
+    min-width: 0;
+  }
+
+  .nav-visitor-mobile-right a,
+  .nav-visitor-mobile-right button {
+    white-space: nowrap;
+  }
+
+  .pathfinder-search-root {
+    flex: 0 0 auto;
+  }
+
+  /* --- Trusted logos marquee: keep the animation contained. --- */
+  .cl-trusted-logos__row,
+  .cl-trusted-logos__row--scrollable {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* --- Category cards: use 2 columns instead of the tablet 3-column grid. --- */
+  .l1-categories-cards,
+  .l1-categories-selected-view-tablet,
+  .l1-categories-selected-view {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* --- Pricing / plan cards: stack full-width instead of overflowing. --- */
+  .plan-card,
+  .plan-card.business.plan-card--highlighted {
+    min-width: 0 !important;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .plan-features,
+  .plan-feature {
+    min-width: 0;
+  }
+
+  /* --- Buttons: let long labels wrap instead of forcing overflow. --- */
+  .air3-btn {
+    max-width: 100%;
+    white-space: normal;
+  }
+
+  /* --- Hero / heading scale down a little on small screens. --- */
+  h1,
+  h2,
+  h3 {
+    overflow-wrap: break-word;
+  }
+}
+
+/* Very small phones (< 360px). */
+@media (max-width: 359.98px) {
+  .l1-categories-cards,
+  .l1-categories-selected-view-tablet,
+  .l1-categories-selected-view {
+    grid-template-columns: 1fr !important;
+  }
+
+  .nav-header-wrapper {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}

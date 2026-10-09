@@ -1,0 +1,2 @@
+var c=(e,{isSsr:r,isSubmodule:a})=>{const t=e.$tracer.getServerSpan()||{},{traceId:i,id:p,parentId:o,geoIpHeader:s}=t,{user:n,orgs:d}=e.store.state;e.store.commit("profiling/setPrimaryProfile",{trace_id:i,span_id:p,parent_span_id:o,application:e.config.application,application_mode:r?"universal":"spa",stack:a?"Agate/NuxtApp":"NuxtApp",geoIpHeader:s,userUid:n?.id,orgUid:d?.current?.id})};export{c as default};
+//# sourceMappingURL=https://upwork-usw2-staging-assets-jsmaps.s3.us-west-2.amazonaws.com/Brontes/_nuxt/private.Dmvcron7.js.map

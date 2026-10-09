@@ -1,0 +1,2 @@
+import{_ as s,o as t,c as r,a as o}from"./entry.DyLJOV_i.js";const n={},c={xmlns:"http://www.w3.org/2000/svg",class:"spinner",viewBox:"25 25 50 50"};function a(i,e,p,l,_,d){return t(),r("svg",c,[...e[0]||(e[0]=[o("circle",{cx:"50",cy:"50",r:"20","stroke-width":"4","stroke-miterlimit":"10"},null,-1)])])}var f=s(n,[["render",a]]);export{f as default};
+//# sourceMappingURL=https://upwork-usw2-staging-assets-jsmaps.s3.us-west-2.amazonaws.com/Brontes/_nuxt/spinner.7Scm1S07.js.map

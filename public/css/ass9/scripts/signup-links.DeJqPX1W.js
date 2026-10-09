@@ -1,0 +1,2 @@
+const r="/nx/signup/",_="freelancer",i="work",U="client",t=(s={},n=r)=>{const c=Object.entries(s).filter(([,e])=>e!=null&&e!=="").map(([e,o])=>`${e}=${encodeURIComponent(o)}`).join("&");return c?`${n}?${c}`:n},l=()=>t({signupType:i}),p=(s,n)=>t({signupType:n,clRedirectTo:s});export{U as S,_ as a,p as b,l as s};
+//# sourceMappingURL=https://upwork-usw2-staging-assets-jsmaps.s3.us-west-2.amazonaws.com/Brontes/_nuxt/signup-links.DeJqPX1W.js.map

@@ -1,0 +1,2 @@
+import{r as e}from"./entry.DyLJOV_i.js";function a({openEvent:r,emit:u}){const n=e(!1),l=e(!1),s=e(null);return{isConsumerOpen:n,isFullscreenOpen:l,openFullscreen:()=>(l.value=!0,new Promise(o=>{s.value=o})),onFullscreenOpened:()=>{n.value=!0,u(r),s.value()}}}export{a as u};
+//# sourceMappingURL=https://upwork-usw2-staging-assets-jsmaps.s3.us-west-2.amazonaws.com/Brontes/_nuxt/useFullscreen.DbMah-3W.js.map

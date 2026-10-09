@@ -1,0 +1,2 @@
+function a(t,r){const n=new WeakMap,s=e=>{e.target===t&&n.has(e.target)&&r(e)},u=e=>{n.delete(e.target)},o=e=>{e.target===t&&(n.set(e.target,!0),t.addEventListener("scroll",u,{once:!0}),document.addEventListener("mouseup",s,{once:!0}))};return t.addEventListener("mousedown",o),()=>{t.removeEventListener("mousedown",o)}}export{a as default};
+//# sourceMappingURL=https://upwork-usw2-staging-assets-jsmaps.s3.us-west-2.amazonaws.com/Brontes/_nuxt/index.nS5oV8Pl.js.map

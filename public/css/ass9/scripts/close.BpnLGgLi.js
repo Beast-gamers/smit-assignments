@@ -1,0 +1,2 @@
+import{_ as o,o as r,c as t,a as s}from"./entry.DyLJOV_i.js";const n={},a={xmlns:"http://www.w3.org/2000/svg",fill:"none","aria-hidden":"true",viewBox:"0 0 24 24",role:"img"};function i(l,e,c,d,p,m){return r(),t("svg",a,[...e[0]||(e[0]=[s("path",{stroke:"currentcolor","stroke-linecap":"round","stroke-linejoin":"round","stroke-miterlimit":"10","stroke-width":"1.5",d:"M5 5l14 14m0-14L5 19"},null,-1)])])}var _=o(n,[["render",i]]);export{_ as default};
+//# sourceMappingURL=https://upwork-usw2-staging-assets-jsmaps.s3.us-west-2.amazonaws.com/Brontes/_nuxt/close.BpnLGgLi.js.map

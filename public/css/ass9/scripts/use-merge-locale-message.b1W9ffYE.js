@@ -1,0 +1,2 @@
+import{J as o,j as u,ak as r}from"./entry.DyLJOV_i.js";function c(n){const e=typeof o=="function"?o()?.$i18n:void 0;if(!e||typeof e.mergeLocaleMessage!="function"||!n)return;const s=u(e.locale)||r;if(typeof s!="string")return;const a=s.split("-")[0],t=n[s]||n[a];t&&e.mergeLocaleMessage(s,t)}export{c as u};
+//# sourceMappingURL=https://upwork-usw2-staging-assets-jsmaps.s3.us-west-2.amazonaws.com/Brontes/_nuxt/use-merge-locale-message.b1W9ffYE.js.map

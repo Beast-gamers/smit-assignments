@@ -1,0 +1,1 @@
+.stats-section .bordered-stat{border-bottom:1px solid var(--border-color-control);position:relative}@media(min-width:700px){.stats-section .bordered-stat{border-bottom:none}.stats-section .bordered-stat:after{content:"";display:block;border-left:1px solid var(--border-color-control);position:absolute;right:0;top:30px;bottom:30px}}

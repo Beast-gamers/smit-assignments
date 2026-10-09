@@ -1,0 +1,2 @@
+const a=[/^\/$/,/^\/ab\/brontes(\/|$)/,/^\/nx\/glide(\/|$)/,/^\/ent(\/|$)/,/^\/sitemaps(\/|$)/,/^\/track(\/|$)/];function r(t){if(!t||typeof t!="string")return"";if(t.startsWith("/"))return t.split(/[?#]/,1)[0]||"/";try{return new URL(t).pathname||""}catch{return""}}function s(t){const n=r(t);return n?a.some(e=>e.test(n)):!1}function i(t,n){return typeof t!="function"?n:s(n)?t(n):n}export{i as a,s};
+//# sourceMappingURL=https://upwork-usw2-staging-assets-jsmaps.s3.us-west-2.amazonaws.com/Brontes/_nuxt/locale-prefix.6_i3TwJl.js.map

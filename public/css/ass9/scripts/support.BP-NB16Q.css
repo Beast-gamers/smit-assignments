@@ -1,0 +1,1 @@
+@media(--dowm-md){.support-section .person-card{grid-column:1/12}}@media(min-width:700px){.support-section .person-card{grid-column:4/10}}.support-section .vs-bg-white{background-color:var(--bg-body)}.support-section .vs-rebrand-cornered{border:1px solid var(--gray-80)}.support-section .vs-rebrand-cornered>:last-child{overflow:hidden}
