@@ -96,17 +96,7 @@ main {
   transform: translateY(0);
 }
 
-.site-footer {
-  max-width: 1200px;
-  margin: 3rem auto 0;
-  text-align: center;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
 
-.site-footer a {
-  color: var(--accent);
-}
 
 @media (max-width: 560px) {
   .gallery-item.feature {
