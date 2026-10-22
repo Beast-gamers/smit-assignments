@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Pre and Post Decrement</title>
+</head>
+<body>
+    <script>
+        var a = 2, b = 1;
+        var result = --a - --b + ++b + b--;
+
+        document.write("<h2>Result:</h2>");
+
+        document.write("The value of a is: " + a + "<br>");
+        document.write("The value of b is: " + b + "<br>");
+        document.write("The value of result is: " + result + "<br><br>");
+
+        a = 2;
+        b = 1;
+
+        document.write("Initially, a = " + a + " and b = " + b + "<br><br>");
+
+        document.write("The value of --a is: " + --a + "<br>");
+        document.write("Now the value of a is: " + a + "<br><br>");
+
+        document.write("The value of --a - --b is: " + (--a - --b) + "<br>");
+        document.write("Now the value of a is: " + a + "<br>");
+        document.write("Now the value of b is: " + b + "<br><br>");
+
+        a = 2;
+        b = 1;
+
+        document.write("The value of --a - --b + ++b is: " + (--a - --b + ++b) + "<br>");
+        document.write("Now the value of a is: " + a + "<br>");
+        document.write("Now the value of b is: " + b + "<br><br>");
+
+        a = 2;
+        b = 1;
+
+        document.write("The value of --a - --b + ++b + b-- is: " + (--a - --b + ++b + b--) + "<br>");
+        document.write("Now the value of a is: " + a + "<br>");
+        document.write("Now the value of b is: " + b + "<br>");
+    </script>
+</body>
+</html>
