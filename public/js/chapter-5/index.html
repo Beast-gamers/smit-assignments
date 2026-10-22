@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment #5 - JavaScript Math Expressions</title>
+</head>
+<body>
+    <h1>Assignment #5: JavaScript Math Expressions</h1>
+
+    <script>
+        // 1–2. Addition, subtraction, multiplication, division, and modulus
+        let num1 = 10;
+        let num2 = 3;
+
+        let addition = num1 + num2;
+        let subtraction = num1 - num2;
+        let multiplication = num1 * num2;
+        let division = num1 / num2;
+        let modulus = num1 % num2;
+
+        document.write("<h2>1–2. Arithmetic Operations</h2>");
+        document.write("First number: " + num1 + "<br>");
+        document.write("Second number: " + num2 + "<br>");
+        document.write("Addition: " + addition + "<br>");
+        document.write("Subtraction: " + subtraction + "<br>");
+        document.write("Multiplication: " + multiplication + "<br>");
+        document.write("Division: " + division + "<br>");
+        document.write("Modulus: " + modulus + "<br>");
+
+        // 3. Variable operations
+        document.write("<h2>3. Variable Operations</h2>");
+        let value;
+        document.write("Value after variable declaration is: " + value + "<br>");
+        value = 5;
+        document.write("Initial value: " + value + "<br>");
+        value++;
+        document.write("Value after increment is: " + value + "<br>");
+        value += 7;
+        document.write("Value after addition is: " + value + "<br>");
+        value--;
+        document.write("Value after decrement is: " + value + "<br>");
+        document.write("The remainder is: " + (value % 3) + "<br>");
+
+        // 4. Movie ticket cost
+        document.write("<h2>4. Movie Ticket Cost</h2>");
+        let ticketPrice = 600;
+        let numberOfTickets = 5;
+        let totalTicketCost = ticketPrice * numberOfTickets;
+        document.write("Total cost of " + numberOfTickets + " tickets: " + totalTicketCost + " PKR<br>");
+
+        // 5. Multiplication table
+        document.write("<h2>5. Multiplication Table</h2>");
+        let tableNumber = 5;
+        document.write(tableNumber + " × 1 = " + (tableNumber * 1) + "<br>");
+        document.write(tableNumber + " × 2 = " + (tableNumber * 2) + "<br>");
+        document.write(tableNumber + " × 3 = " + (tableNumber * 3) + "<br>");
+        document.write(tableNumber + " × 4 = " + (tableNumber * 4) + "<br>");
+        document.write(tableNumber + " × 5 = " + (tableNumber * 5) + "<br>");
+        document.write(tableNumber + " × 6 = " + (tableNumber * 6) + "<br>");
+        document.write(tableNumber + " × 7 = " + (tableNumber * 7) + "<br>");
+        document.write(tableNumber + " × 8 = " + (tableNumber * 8) + "<br>");
+        document.write(tableNumber + " × 9 = " + (tableNumber * 9) + "<br>");
+        document.write(tableNumber + " × 10 = " + (tableNumber * 10) + "<br>");
+
+        // 6. Temperature converter
+        document.write("<h2>6. Temperature Converter</h2>");
+        let celsius = 25;
+        let fahrenheit = (celsius * 9 / 5) + 32;
+        document.write(celsius + "°C is " + fahrenheit + "°F<br>");
+
+        let fahrenheitTemp = 77;
+        let celsiusTemp = (fahrenheitTemp - 32) * 5 / 9;
+        document.write(fahrenheitTemp + "°F is " + celsiusTemp + "°C<br>");
+
+        // 7. Shopping cart checkout
+        document.write("<h2>7. Shopping Cart Checkout</h2>");
+        let priceItem1 = 500;
+        let priceItem2 = 300;
+        let quantityItem1 = 2;
+        let quantityItem2 = 1;
+        let shippingCharges = 150;
+        let totalCost = (priceItem1 * quantityItem1) + (priceItem2 * quantityItem2) + shippingCharges;
+
+        document.write("Price of item 1: " + priceItem1 + " PKR<br>");
+        document.write("Quantity of item 1: " + quantityItem1 + "<br>");
+        document.write("Price of item 2: " + priceItem2 + " PKR<br>");
+        document.write("Quantity of item 2: " + quantityItem2 + "<br>");
+        document.write("Shipping charges: " + shippingCharges + " PKR<br>");
+        document.write("Total cost: " + totalCost + " PKR<br>");
+
+        // 8. Student percentage
+        document.write("<h2>8. Student Percentage</h2>");
+        let totalMarks = 550;
+        let marksObtained = 450;
+        let percentage = (marksObtained / totalMarks) * 100;
+        document.write("Percentage: " + percentage + "%<br>");
+
+        // 9. Currency conversion
+        document.write("<h2>9. Currency Conversion</h2>");
+        let totalCurrencyInPKR = (10 * 104.80) + (25 * 28);
+        document.write("Total currency in Pakistani Rupees: " + totalCurrencyInPKR + " PKR<br>");
+
+        // 10. Arithmetic sequence in a single expression
+        document.write("<h2>10. Arithmetic Sequence</h2>");
+        let startingNumber = 2;
+        let sequenceResult = (startingNumber + 5) * 10 / 2;
+        document.write("Result: " + sequenceResult + "<br>");
+
+        // 11. Age calculator
+        document.write("<h2>11. Age Calculator</h2>");
+        let currentYear = 2026;
+        let birthYear = 2008;
+        let age = currentYear - birthYear;
+        document.write("They are either " + (age - 1) + " or " + age + " years old.<br>");
+
+        // 12. Geometrizer
+        document.write("<h2>12. Geometrizer</h2>");
+        let radius = 5;
+        let pi = 3.142;
+        let circumference = 2 * pi * radius;
+        let area = pi * radius * radius;
+        document.write("The circumference is " + circumference + "<br>");
+        document.write("The area is " + area + "<br>");
+
+        // 13. Lifetime supply calculator
+        document.write("<h2>13. Lifetime Supply Calculator</h2>");
+        let favoriteSnack = "chips";
+        let currentAge = 16;
+        let maximumAge = 80;
+        let amountPerDay = 2;
+        let lifetimeSupply = (maximumAge - currentAge) * 365 * amountPerDay;
+        document.write("You will need " + lifetimeSupply + " " + favoriteSnack +
+            " to last you until the ripe old age of " + maximumAge + ".<br>");
+    </script>
+</body>
+</html>
