@@ -1,0 +1,2646 @@
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/65c558afe41e89d6-s.113htgw8u-emy.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/14e23f9b59180572-s.08.c8psu-gif9.woff2) format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1,
+    U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9,
+    U+20AB;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/b49b0d9b851e4899-s.0yfy_qj1.2qn0.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/2a65768255d6b625-s.14by5b4al-y-f.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/65c558afe41e89d6-s.113htgw8u-emy.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/14e23f9b59180572-s.08.c8psu-gif9.woff2) format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1,
+    U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9,
+    U+20AB;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/b49b0d9b851e4899-s.0yfy_qj1.2qn0.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/2a65768255d6b625-s.14by5b4al-y-f.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/65c558afe41e89d6-s.113htgw8u-emy.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/14e23f9b59180572-s.08.c8psu-gif9.woff2) format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1,
+    U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9,
+    U+20AB;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/b49b0d9b851e4899-s.0yfy_qj1.2qn0.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/2a65768255d6b625-s.14by5b4al-y-f.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../images/65c558afe41e89d6-s.113htgw8u-emy.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../images/14e23f9b59180572-s.08.c8psu-gif9.woff2) format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1,
+    U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9,
+    U+20AB;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../images/b49b0d9b851e4899-s.0yfy_qj1.2qn0.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../images/2a65768255d6b625-s.14by5b4al-y-f.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Playfair Display Fallback;
+  src: local(Times New Roman);
+  ascent-override: 97.25%;
+  descent-override: 22.56%;
+  line-gap-override: 0%;
+  size-adjust: 111.26%;
+}
+.playfair_display_282fc101-module__5oiGIq__className {
+  font-family: Playfair Display, Playfair Display Fallback;
+  font-style: normal;
+}
+.playfair_display_282fc101-module__5oiGIq__variable {
+  --font-playfair-display: "Playfair Display", "Playfair Display Fallback";
+}
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/76962f1099c67ed7-s.1001uajdu0vmy.woff2) format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/2e55616d683de2eb-s.0ixa8_li2jdly.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/9ae63c18b294b16b-s.032acz34hlvv6.woff2) format("woff2");
+  unicode-range: U+1F??;
+}
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/2e7f3bfe9d6db30c-s.0bg.cnkzvkv0x.woff2) format("woff2");
+  unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF;
+}
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/200eb4e70eea77b1-s.0p8s0487pbgt0.woff2) format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1,
+    U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9,
+    U+20AB;
+}
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/a6c82a37921ca535-s.01-i7x-aekfu4.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/bd61c44353c129b5-s.p.1558nfkaan-be.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Inter Fallback;
+  src: local(Arial);
+  ascent-override: 90.44%;
+  descent-override: 22.52%;
+  line-gap-override: 0%;
+  size-adjust: 107.12%;
+}
+.inter_4e893f30-module__V5GMLW__className {
+  font-family: Inter, Inter Fallback;
+  font-style: normal;
+  font-weight: 400;
+}
+.inter_4e893f30-module__V5GMLW__variable {
+  --font-inter: "Inter", "Inter Fallback";
+}
+@font-face {
+  font-family: tomato_grotesk;
+  src: url(../images/TomatoGrotesk_Regular-s.07cpvg88pp-8f.woff2)
+    format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: tomato_grotesk;
+  src: url(../images/TomatoGrotesk_Bold-s.0d5rgej2i74j..woff2) format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: tomato_grotesk;
+  src: url(../images/TomatoGrotesk_Black-s.0ek.mmmf54tjf.woff2) format("woff2");
+  font-display: swap;
+  font-weight: 800;
+  font-style: bold;
+}
+@font-face {
+  font-family: tomato_grotesk Fallback;
+  src: local(Arial);
+  ascent-override: 92.41%;
+  descent-override: 24.32%;
+  line-gap-override: 0%;
+  size-adjust: 102.81%;
+}
+.tomato_grotesk_6f0cd577-module__fJrDfG__className {
+  font-family: tomato_grotesk, tomato_grotesk Fallback;
+}
+.tomato_grotesk_6f0cd577-module__fJrDfG__variable {
+  --font-tomato-grotesk: "tomato_grotesk", "tomato_grotesk Fallback";
+}
+@font-face {
+  font-family: eustache;
+  src: url(../images/eustache_regular_webfont-s.112fgni9-vhzg.woff2)
+    format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: eustache Fallback;
+  src: local(Arial);
+  ascent-override: 139.25%;
+  descent-override: 81.95%;
+  line-gap-override: 0%;
+  size-adjust: 57.44%;
+}
+.eustache_f136b9d2-module__DzA63q__className {
+  font-family: eustache, eustache Fallback;
+}
+.eustache_f136b9d2-module__DzA63q__variable {
+  --font-eustache: "eustache", "eustache Fallback";
+}
+@font-face {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/2039e8342bda6056-s.0h2amv7e1wlhq.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/fabcf92ba1ccea36-s.0lwj123ije5i..woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Bebas Neue Fallback;
+  src: local(Arial);
+  ascent-override: 117.32%;
+  descent-override: 39.11%;
+  line-gap-override: 0%;
+  size-adjust: 76.72%;
+}
+.bebas_neue_cd254687-module__kROq1G__className {
+  font-family: Bebas Neue, Bebas Neue Fallback;
+  font-style: normal;
+  font-weight: 400;
+}
+.bebas_neue_cd254687-module__kROq1G__variable {
+  --font-bebas-neue: "Bebas Neue", "Bebas Neue Fallback";
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/41e95f694c5c4549-s.0r1jrq7neqdsq.woff2) format("woff2");
+  unicode-range: U+900-97F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/6c55a692938ebbbc-s.0g6rbszwfgn9y.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/a218039a3287bcfd-s.p.17-1enzs_j91b.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/bdc7e24a509eb931-s.0apt5mko2.qn3.woff2) format("woff2");
+  unicode-range: U+900-97F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/0da9c7f357bd9d4d-s.0ek5sshv8wk3m.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/8e6fa89aa22d24ec-s.p.0uvzar8hswo3p.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/0a7740363b4d4863-s.1110aazvokzp..woff2) format("woff2");
+  unicode-range: U+900-97F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/5f9d24ebef5d5292-s.0esuu2f5si-v8.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/e2334d715941921e-s.p.12skym0rqknxy.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/b53057dbf91a7acf-s.0carvq6u72s58.woff2) format("woff2");
+  unicode-range: U+900-97F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/798ea22d9983e047-s.106do9xzbuago.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/47fe1b7cd6e6ed85-s.p.0-mcdl10zdfb3.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../images/99ce71e74c11bc20-s.0hoqzal24odb4.woff2) format("woff2");
+  unicode-range: U+900-97F, U+1CD0-1CF4, U+1CF7-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B0A;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../images/8cf1ea7b03cdeb83-s.0.56594qx.-9o.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../images/829ba4228c966254-s.p.0ub.k0om-_-xi.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Poppins Fallback;
+  src: local(Arial);
+  ascent-override: 93.62%;
+  descent-override: 31.21%;
+  line-gap-override: 8.92%;
+  size-adjust: 112.16%;
+}
+.poppins_7a0cf75f-module__Yy5WRq__className {
+  font-family: Poppins, Poppins Fallback;
+  font-style: normal;
+}
+.poppins_7a0cf75f-module__Yy5WRq__variable {
+  --font-poppins: "Poppins", "Poppins Fallback";
+}
+@font-face {
+  font-family: Noto Nastaliq Urdu;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/7431e9586bb7ba3a-s.05b6b2howzvdc.woff2) format("woff2");
+  unicode-range: U+6??, U+750-77F, U+870-891, U+897-8E1, U+8E3-8FF, U+200C-200E,
+    U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC,
+    U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF?,
+    U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32,
+    U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B,
+    U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D,
+    U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77,
+    U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3,
+    U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+@font-face {
+  font-family: Noto Nastaliq Urdu;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/c9936ae704f75ae4-s.0_gg89tayihbs.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Noto Nastaliq Urdu;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/6881cf93187e1d60-s.0v3wmo7doyos..woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Noto Nastaliq Urdu;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/7431e9586bb7ba3a-s.05b6b2howzvdc.woff2) format("woff2");
+  unicode-range: U+6??, U+750-77F, U+870-891, U+897-8E1, U+8E3-8FF, U+200C-200E,
+    U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC,
+    U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF?,
+    U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32,
+    U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B,
+    U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D,
+    U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77,
+    U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3,
+    U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+@font-face {
+  font-family: Noto Nastaliq Urdu;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/c9936ae704f75ae4-s.0_gg89tayihbs.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Noto Nastaliq Urdu;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/6881cf93187e1d60-s.0v3wmo7doyos..woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Noto Nastaliq Urdu Fallback;
+  src: local(Times New Roman);
+  ascent-override: 167.79%;
+  descent-override: 52.52%;
+  line-gap-override: 0%;
+  size-adjust: 113.48%;
+}
+.noto_nastaliq_urdu_c4b46b6b-module___U2F4G__className {
+  font-family: Noto Nastaliq Urdu, Noto Nastaliq Urdu Fallback;
+  font-style: normal;
+}
+.noto_nastaliq_urdu_c4b46b6b-module___U2F4G__variable {
+  --font-urdu: "Noto Nastaliq Urdu", "Noto Nastaliq Urdu Fallback";
+}
+@font-face {
+  font-family: Noto Naskh Arabic;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/7ef7a56eade2e2ae-s.0aonvl_ij43qv.woff2) format("woff2");
+  unicode-range: U+6??, U+750-77F, U+870-891, U+897-8E1, U+8E3-8FF, U+200C-200E,
+    U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC,
+    U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF?,
+    U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32,
+    U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B,
+    U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D,
+    U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77,
+    U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3,
+    U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;
+}
+@font-face {
+  font-family: Noto Naskh Arabic;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/e6f930e36afe6271-s.02wyo_7bow2.q.woff2) format("woff2");
+  unicode-range: U+302-303, U+305, U+307-308, U+310, U+312, U+315, U+31A,
+    U+326-327, U+32C, U+32F-330, U+332-333, U+338, U+33A, U+346, U+34D,
+    U+391-3A1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5,
+    U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057,
+    U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF,
+    U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192,
+    U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF,
+    U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395,
+    U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7,
+    U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF,
+    U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D,
+    U+1D400-1D7FF, U+1EE??;
+}
+@font-face {
+  font-family: Noto Naskh Arabic;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/d8a8a9b766f53dd0-s.07cqun-v57cy..woff2) format("woff2");
+  unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E4, U+2150-218F,
+    U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219,
+    U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF,
+    U+28??, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B??, U+4DC0-4DFF,
+    U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD,
+    U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F0??,
+    U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E,
+    U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F,
+    U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE,
+    U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415,
+    U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449,
+    U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9,
+    U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6,
+    U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B,
+    U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F,
+    U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA,
+    U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3,
+    U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887,
+    U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B,
+    U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C,
+    U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB??;
+}
+@font-face {
+  font-family: Noto Naskh Arabic;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/a215414a91355546-s.08rshslram25g.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Noto Naskh Arabic;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/0ff87726edc077c9-s.0tkdu-n16wdg9.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Noto Naskh Arabic Fallback;
+  src: local(Times New Roman);
+  ascent-override: 91.43%;
+  descent-override: 54.22%;
+  line-gap-override: 0%;
+  size-adjust: 116.92%;
+}
+.noto_naskh_arabic_95a07ffc-module__cAXljq__className {
+  font-family: Noto Naskh Arabic, Noto Naskh Arabic Fallback;
+  font-style: normal;
+  font-weight: 400;
+}
+.noto_naskh_arabic_95a07ffc-module__cAXljq__variable {
+  --font-arabic: "Noto Naskh Arabic", "Noto Naskh Arabic Fallback";
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/a342834df7752944-s.134a0jwmwvg_i.woff2) format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/d3fe2f289711ac3f-s.0w_f96cospezl.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/58c4895d0a0ef7cc-s.02yf8u8emj5c1.woff2) format("woff2");
+  unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/bfc7db5c00d21bc5-s.0ojzqc1t-ese_.woff2) format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1,
+    U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9,
+    U+20AB;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/6ab0db14f70d8ed6-s.0mt_o8bzzo83.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../images/a343f882a40d2cc9-s.p.07.o8jnvxu78u.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/a342834df7752944-s.134a0jwmwvg_i.woff2) format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/d3fe2f289711ac3f-s.0w_f96cospezl.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/58c4895d0a0ef7cc-s.02yf8u8emj5c1.woff2) format("woff2");
+  unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/bfc7db5c00d21bc5-s.0ojzqc1t-ese_.woff2) format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1,
+    U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9,
+    U+20AB;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/6ab0db14f70d8ed6-s.0mt_o8bzzo83.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../images/a343f882a40d2cc9-s.p.07.o8jnvxu78u.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/a342834df7752944-s.134a0jwmwvg_i.woff2) format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/d3fe2f289711ac3f-s.0w_f96cospezl.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/58c4895d0a0ef7cc-s.02yf8u8emj5c1.woff2) format("woff2");
+  unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/bfc7db5c00d21bc5-s.0ojzqc1t-ese_.woff2) format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1,
+    U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9,
+    U+20AB;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/6ab0db14f70d8ed6-s.0mt_o8bzzo83.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../images/a343f882a40d2cc9-s.p.07.o8jnvxu78u.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/a342834df7752944-s.134a0jwmwvg_i.woff2) format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/d3fe2f289711ac3f-s.0w_f96cospezl.woff2) format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/58c4895d0a0ef7cc-s.02yf8u8emj5c1.woff2) format("woff2");
+  unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/bfc7db5c00d21bc5-s.0ojzqc1t-ese_.woff2) format("woff2");
+  unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1,
+    U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9,
+    U+20AB;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/6ab0db14f70d8ed6-s.0mt_o8bzzo83.woff2) format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304,
+    U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../images/a343f882a40d2cc9-s.p.07.o8jnvxu78u.woff2) format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304,
+    U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Manrope Fallback;
+  src: local(Arial);
+  ascent-override: 103.31%;
+  descent-override: 29.07%;
+  line-gap-override: 0%;
+  size-adjust: 103.19%;
+}
+.manrope_441000b6-module__jMfUca__className {
+  font-family: Manrope, Manrope Fallback;
+  font-style: normal;
+}
+.manrope_441000b6-module__jMfUca__variable {
+  --font-manrope: "Manrope", "Manrope Fallback";
+}
+.masjid-construction-module__NQoEOG__page {
+  --font-weight-emphasis: 800;
+  --ink: #123735;
+  --inkdark: #092c2b;
+  --green: #075c4c;
+  --green2: #178461;
+  --gold: #a58143;
+  --goldlight: #f7eedb;
+  --cream: #fcf9f1;
+  --cream2: #f4f4e9;
+  --muted: #657976;
+  --line: #e7e8dd;
+  --white: #fff;
+  --shadow: 0 18px 54px #1b3f301a;
+}
+.masjid-construction-module__NQoEOG__page * {
+  box-sizing: border-box;
+}
+.masjid-construction-module__NQoEOG__page {
+  min-width: 320px;
+  color: var(--ink);
+  font-family: var(--font-poppins), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #fff;
+  margin: 0;
+}
+.masjid-construction-module__NQoEOG__page :where(button, input) {
+  font: inherit;
+}
+.masjid-construction-module__NQoEOG__page a {
+  color: inherit;
+  text-decoration: none;
+}
+.masjid-construction-module__NQoEOG__page img {
+  width: 100%;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__page h1,
+.masjid-construction-module__NQoEOG__page h2,
+.masjid-construction-module__NQoEOG__page h3,
+.masjid-construction-module__NQoEOG__page p {
+  margin: 0;
+}
+.masjid-construction-module__NQoEOG__page h1,
+.masjid-construction-module__NQoEOG__page h2,
+.masjid-construction-module__NQoEOG__page h3 {
+  font-family: var(--font-playfair-display), Georgia, serif;
+  letter-spacing: -0.045em;
+  font-weight: 700;
+}
+.masjid-construction-module__NQoEOG__page p {
+  line-height: 1.75;
+}
+.masjid-construction-module__NQoEOG__container {
+  width: min(1300px, 100% - 90px);
+  margin: auto;
+}
+.masjid-construction-module__NQoEOG__eyebrow {
+  letter-spacing: 2.2px;
+  font-size: 11px;
+  font-weight: var(--font-weight-emphasis);
+  color: var(--green2);
+  text-transform: uppercase;
+}
+.masjid-construction-module__NQoEOG__muted {
+  color: var(--muted);
+}
+.masjid-construction-module__NQoEOG__button {
+  background: var(--green);
+  color: #fff;
+  font-weight: var(--font-weight-emphasis);
+  border: 1px solid #0000;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 23px;
+  font-size: 13px;
+  transition: all 0.2s;
+  display: inline-flex;
+  box-shadow: 0 10px 22px #005d4321;
+}
+.masjid-construction-module__NQoEOG__button:hover {
+  background: #087361;
+  transform: translateY(-2px);
+}
+.masjid-construction-module__NQoEOG__button:focus-visible,
+.masjid-construction-module__NQoEOG__page a:focus-visible,
+.masjid-construction-module__NQoEOG__page input:focus-visible,
+.masjid-construction-module__NQoEOG__page summary:focus-visible {
+  outline-offset: 3px;
+  outline: 3px solid #eebd57;
+}
+.masjid-construction-module__NQoEOG__button.masjid-construction-module__NQoEOG__secondary {
+  color: var(--green);
+  box-shadow: none;
+  background: #fff;
+  border-color: #bedbce;
+}
+.masjid-construction-module__NQoEOG__button.masjid-construction-module__NQoEOG__secondary:hover {
+  background: #eff8f2;
+}
+.masjid-construction-module__NQoEOG__button.masjid-construction-module__NQoEOG__wide {
+  width: 100%;
+}
+.masjid-construction-module__NQoEOG__text-btn {
+  color: var(--green);
+  font-size: 13px;
+  font-weight: var(--font-weight-emphasis);
+  background: 0 0;
+  border: 0;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 0;
+  display: inline-flex;
+}
+.masjid-construction-module__NQoEOG__text-btn:hover {
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+.masjid-construction-module__NQoEOG__pill {
+  color: #194f41;
+  font-size: 10px;
+  font-weight: var(--font-weight-emphasis);
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  background: #f1f5e9;
+  border: 1px solid #e1e9d8;
+  border-radius: 100px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  display: inline-flex;
+}
+.masjid-construction-module__NQoEOG__pill svg {
+  width: 17px;
+  height: 17px;
+}
+.masjid-construction-module__NQoEOG__icon {
+  vertical-align: middle;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex: none;
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+}
+.masjid-construction-module__NQoEOG__icon.masjid-construction-module__NQoEOG__sm {
+  width: 15px;
+  height: 15px;
+}
+.masjid-construction-module__NQoEOG__icon.masjid-construction-module__NQoEOG__lg {
+  width: 30px;
+  height: 30px;
+}
+.masjid-construction-module__NQoEOG__tag {
+  color: #17754c;
+  letter-spacing: 0.3px;
+  font-size: 10px;
+  font-weight: var(--font-weight-emphasis);
+  background: #edf7ef;
+  border-radius: 999px;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 10px;
+  display: inline-flex;
+}
+.masjid-construction-module__NQoEOG__draft-tag {
+  color: #906a27;
+  font-size: 10px;
+  font-weight: var(--font-weight-emphasis);
+  background: #f9eed7;
+  border: 1px solid #edddb8;
+  border-radius: 6px;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 9px;
+  display: inline-flex;
+}
+.masjid-construction-module__NQoEOG__section-head {
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: 25px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__section-head h2 {
+  color: var(--inkdark);
+  margin: 9px 0 8px;
+  font-size: clamp(32px, 3.3vw, 48px);
+}
+.masjid-construction-module__NQoEOG__section-head p {
+  color: #6c817b;
+  font-size: 14px;
+}
+.masjid-construction-module__NQoEOG__section {
+  padding: 82px 0;
+}
+.masjid-construction-module__NQoEOG__hero {
+  isolation: isolate;
+  background: radial-gradient(circle at 21% 35%, #fff1cca1, #0000 46%),
+    linear-gradient(122deg, #fffefa 2%, #fcf8ef 60%, #f3f7ef 100%);
+  position: relative;
+  overflow: hidden;
+}
+.masjid-construction-module__NQoEOG__hero:before,
+.masjid-construction-module__NQoEOG__section-location:before {
+  content: "";
+  opacity: 0.16;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M50 0L65 31L100 50L65 69L50 100L35 69L0 50L35 31Z M50 17L61 39L83 50L61 61L50 83L39 61L17 50L39 39Z' stroke='%23a88143' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: -74px;
+  left: 49%;
+}
+.masjid-construction-module__NQoEOG__hero-grid {
+  grid-template-columns: minmax(0, 1.27fr) minmax(385px, 0.91fr);
+  align-items: start;
+  gap: 46px;
+  padding-top: 39px;
+  padding-bottom: 0;
+  display: grid;
+  position: relative;
+}
+.masjid-construction-module__NQoEOG__hero-left {
+  isolation: isolate;
+  min-height: 730px;
+  padding: 18px 0 118px;
+  position: relative;
+}
+.masjid-construction-module__NQoEOG__hero-intro {
+  z-index: 2;
+  max-width: 600px;
+  position: relative;
+}
+.masjid-construction-module__NQoEOG__hero h1 {
+  color: var(--inkdark);
+  margin: 20px 0 21px;
+  font-size: clamp(49px, 4.4vw, 68px);
+  font-weight: 700;
+  line-height: 1.11;
+}
+.masjid-construction-module__NQoEOG__hero h1 span {
+  color: var(--gold);
+  display: block;
+}
+.masjid-construction-module__NQoEOG__hero p {
+  color: #647773;
+  max-width: 540px;
+  font-size: 15px;
+  line-height: 1.85;
+}
+.masjid-construction-module__NQoEOG__hero-actions {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  margin-top: 25px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__hero-photo {
+  z-index: 0;
+  pointer-events: none;
+  height: 485px;
+  position: absolute;
+  bottom: 0;
+  left: -55px;
+  right: -15px;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(#0000 0%, #00000073 17%, #000 33%);
+  mask-image: linear-gradient(#0000 0%, #00000073 17%, #000 33%);
+}
+.masjid-construction-module__NQoEOG__hero-photo img {
+  object-fit: cover;
+  object-position: 50% 53%;
+  filter: saturate(1.03) contrast(1.02) brightness(0.96);
+  width: 100%;
+  height: 100%;
+}
+.masjid-construction-module__NQoEOG__hero-photo:after {
+  content: "";
+  background: linear-gradient(90deg, #fbe6b11f, #0000 68%),
+    linear-gradient(#0000 55%, #0c3d261f);
+  position: absolute;
+  inset: 0;
+}
+.masjid-construction-module__NQoEOG__hero-stats {
+  z-index: 4;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: #fffffff5;
+  border: 1px solid #edf0df;
+  border-radius: 17px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  padding: 12px;
+  display: grid;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  box-shadow: 0 14px 40px #21382229;
+}
+.masjid-construction-module__NQoEOG__stat {
+  text-align: left;
+  color: var(--ink);
+  background: 0 0;
+  border: 0;
+  border-right: 1px solid #e9eadf;
+  border-radius: 10px;
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+  padding: 10px 11px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__stat:last-child {
+  border-right: 0;
+}
+.masjid-construction-module__NQoEOG__stat:hover {
+  background: #f5f8f1;
+}
+.masjid-construction-module__NQoEOG__stat-icon {
+  color: #0a7a50;
+  background: #eaf5e8;
+  border-radius: 50%;
+  flex: none;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__stat strong {
+  color: #0a5746;
+  white-space: nowrap;
+  font-size: 24px;
+  line-height: 1.1;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__stat small {
+  color: #687d78;
+  margin-top: 6px;
+  font-size: 10px;
+  line-height: 1.3;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__hero-stat-note {
+  color: #8c8679;
+  font-size: 10px;
+  position: absolute;
+  bottom: 7px;
+  left: 8px;
+  transform: translateY(100%);
+}
+.masjid-construction-module__NQoEOG__donation-card {
+  z-index: 3;
+  background: #fff;
+  border: 1px solid #e9eae5;
+  border-radius: 19px;
+  margin-bottom: 34px;
+  padding: 29px 27px;
+  position: relative;
+  box-shadow: 0 26px 65px #1e433724;
+}
+.masjid-construction-module__NQoEOG__donation-card:before {
+  content: "";
+  background: linear-gradient(90deg, #074c4d, #37a75b, #a3bb62);
+  border-radius: 19px 19px 0 0;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.masjid-construction-module__NQoEOG__donation-top {
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__secure {
+  color: #82918b;
+  white-space: nowrap;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__secure svg {
+  width: 13px;
+  height: 13px;
+}
+.masjid-construction-module__NQoEOG__donation-card h2 {
+  color: var(--inkdark);
+  margin: 18px 0 7px;
+  font-size: 28px;
+  line-height: 1.27;
+}
+.masjid-construction-module__NQoEOG__donation-lead {
+  margin-bottom: 22px;
+  color: #82918c !important;
+  font-size: 12px !important;
+  line-height: 1.6 !important;
+}
+.masjid-construction-module__NQoEOG__form-label {
+  font-weight: var(--font-weight-emphasis);
+  color: #213b35;
+  margin-bottom: 10px;
+  font-size: 12px;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__toggle-group {
+  background: #f0f3ef;
+  border-radius: 11px;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin-bottom: 22px;
+  padding: 5px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__toggle-group button {
+  color: #60776d;
+  font-size: 12px;
+  font-weight: var(--font-weight-emphasis);
+  background: 0 0;
+  border: 0;
+  border-radius: 8px;
+  padding: 11px 8px;
+}
+.masjid-construction-module__NQoEOG__toggle-group
+  button.masjid-construction-module__NQoEOG__active {
+  background: var(--green);
+  color: #fff;
+  box-shadow: 0 4px 10px #09523d29;
+}
+.masjid-construction-module__NQoEOG__form-subtext {
+  color: #86928a;
+  margin-top: -4px;
+  margin-bottom: 11px;
+  font-size: 11px;
+}
+.masjid-construction-module__NQoEOG__amounts {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__amounts button {
+  color: #244236;
+  background: #fdfcf6;
+  border: 1px solid #e4e6dc;
+  border-radius: 10px;
+  min-width: 0;
+  min-height: 72px;
+  padding: 15px 5px 13px;
+}
+.masjid-construction-module__NQoEOG__amounts button:hover,
+.masjid-construction-module__NQoEOG__amounts
+  button.masjid-construction-module__NQoEOG__active {
+  background: #f1f8e9;
+  border-color: #9bbb8b;
+}
+.masjid-construction-module__NQoEOG__amounts strong {
+  font-size: 12px;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__amounts small {
+  color: #95a39a;
+  margin-top: 5px;
+  font-size: 9px;
+  line-height: 1.35;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__custom-line {
+  border: 1px solid #dfe6df;
+  border-radius: 9px;
+  align-items: center;
+  margin-top: 11px;
+  margin-bottom: 18px;
+  display: flex;
+  overflow: hidden;
+}
+.masjid-construction-module__NQoEOG__custom-line:focus-within {
+  border-color: #3d9c68;
+  box-shadow: 0 0 0 3px #e5f1e6;
+}
+.masjid-construction-module__NQoEOG__custom-line
+  .masjid-construction-module__NQoEOG__prefix {
+  color: #286e50;
+  font-size: 13px;
+  font-weight: var(--font-weight-emphasis);
+  background: #ecf4e7;
+  padding: 12px 15px;
+}
+.masjid-construction-module__NQoEOG__custom-line input {
+  color: #164a3e;
+  background: #fff;
+  border: 0;
+  outline: none;
+  width: 100%;
+  min-width: 0;
+  padding: 12px 13px;
+  font-size: 13px;
+}
+.masjid-construction-module__NQoEOG__custom-line input::placeholder {
+  color: #a5b0aa;
+}
+.masjid-construction-module__NQoEOG__summary {
+  background: linear-gradient(105deg, #f0f8eb, #fbf4e4);
+  border-radius: 12px;
+  margin-bottom: 13px;
+  padding: 18px;
+  position: relative;
+  overflow: hidden;
+}
+.masjid-construction-module__NQoEOG__summary small {
+  color: #5d7c70;
+  font-size: 11px;
+}
+.masjid-construction-module__NQoEOG__summary strong {
+  color: #085f47;
+  font-size: 33px;
+  font-weight: var(--font-weight-emphasis);
+  letter-spacing: -1px;
+  margin: 3px 0;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__summary:after {
+  content: "☪";
+  color: #dce7c8;
+  opacity: 0.7;
+  font-size: 72px;
+  line-height: 1;
+  position: absolute;
+  bottom: 0;
+  right: 23px;
+}
+.masjid-construction-module__NQoEOG__sadaqah-note {
+  background: #fbf7eb;
+  border: 1px solid #f0e7d5;
+  border-radius: 12px;
+  gap: 13px;
+  margin: 0 0 17px;
+  padding: 15px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__round-sprout {
+  color: #8e7435;
+  background: #f4e7c6;
+  border-radius: 50%;
+  flex: none;
+  place-items: center;
+  width: 39px;
+  height: 39px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__sadaqah-note strong {
+  font-size: 12px;
+}
+.masjid-construction-module__NQoEOG__sadaqah-note p {
+  color: #7c8c80;
+  margin-top: 4px;
+  font-size: 10px;
+  line-height: 1.6;
+}
+.masjid-construction-module__NQoEOG__donation-foot {
+  color: #85948e;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 10px;
+  line-height: 1.6;
+}
+.masjid-construction-module__NQoEOG__payment-warning {
+  color: #93793f;
+  background: #faf6ec;
+  border: 1px solid #f1e6d1;
+  border-radius: 7px;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 13px;
+  padding: 8px 9px;
+  font-size: 10px;
+  display: inline-flex;
+}
+.masjid-construction-module__NQoEOG__current-section {
+  background: #fff;
+  padding: 76px 0 82px;
+  position: relative;
+}
+.masjid-construction-module__NQoEOG__project-shell {
+  background: linear-gradient(112deg, #f5f7ee, #faf8ed);
+  border: 1px solid #e4eade;
+  border-radius: 19px;
+  grid-template-columns: 1.03fr 0.86fr 0.68fr;
+  align-items: stretch;
+  gap: 22px;
+  padding: 20px;
+  display: grid;
+  box-shadow: 0 12px 35px #14371e0d;
+}
+.masjid-construction-module__NQoEOG__project-copy {
+  padding: 11px 8px 13px 12px;
+}
+.masjid-construction-module__NQoEOG__project-copy h3 {
+  color: var(--inkdark);
+  margin: 10px 0 15px;
+  font-size: 30px;
+  line-height: 1.19;
+}
+.masjid-construction-module__NQoEOG__location-line {
+  color: #86652d;
+  font-size: 12px;
+  font-weight: var(--font-weight-emphasis);
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 14px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__project-copy p {
+  color: #687d76;
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 1.75;
+}
+.masjid-construction-module__NQoEOG__project-image {
+  background: #e5d7b9;
+  border-radius: 13px;
+  min-height: 290px;
+  position: relative;
+  overflow: hidden;
+}
+.masjid-construction-module__NQoEOG__project-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.masjid-construction-module__NQoEOG__project-image
+  .masjid-construction-module__NQoEOG__image-label {
+  color: #8a6a32;
+  font-size: 10px;
+  font-weight: var(--font-weight-emphasis);
+  background: #fff;
+  border-radius: 7px;
+  padding: 7px 10px;
+  position: absolute;
+  top: 11px;
+  left: 11px;
+}
+.masjid-construction-module__NQoEOG__project-funding {
+  background: #fff;
+  border-radius: 13px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  padding: 23px 19px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__project-funding
+  .masjid-construction-module__NQoEOG__amount-label {
+  font-size: 11px;
+  font-weight: var(--font-weight-emphasis);
+  color: #72857e;
+}
+.masjid-construction-module__NQoEOG__funding-big {
+  color: #135746;
+  letter-spacing: -0.7px;
+  font-size: 27px;
+  font-weight: var(--font-weight-emphasis);
+}
+.masjid-construction-module__NQoEOG__progress-track {
+  background: #e6e9e1;
+  border-radius: 50px;
+  height: 11px;
+  overflow: hidden;
+}
+.masjid-construction-module__NQoEOG__progress-track div {
+  background: linear-gradient(90deg, #096c45, #32a15a);
+  border-radius: 50px;
+  height: 100%;
+}
+.masjid-construction-module__NQoEOG__progress-row {
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__progress-row strong {
+  color: #173e35;
+  font-size: 12px;
+}
+.masjid-construction-module__NQoEOG__progress-row span {
+  color: #7a9185;
+  font-size: 10px;
+}
+.masjid-construction-module__NQoEOG__funding-alert {
+  color: #927e59;
+  font-size: 10px;
+  line-height: 1.5;
+}
+.masjid-construction-module__NQoEOG__project-funding
+  .masjid-construction-module__NQoEOG__button {
+  padding: 13px 10px;
+}
+.masjid-construction-module__NQoEOG__section-location {
+  background: radial-gradient(circle at 6% 2%, #f0f7eb, #0000 36%), #f8f9f5;
+  position: relative;
+  overflow: hidden;
+}
+.masjid-construction-module__NQoEOG__location-overview {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 22px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__metric {
+  text-align: left;
+  background: #fff;
+  border: 1px solid #e0e7dc;
+  border-radius: 15px;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+  padding: 22px;
+  transition: all 0.2s;
+  display: flex;
+  box-shadow: 0 6px 22px #143f2b09;
+}
+.masjid-construction-module__NQoEOG__metric:hover {
+  border-color: #9fc4a9;
+  transform: translateY(-3px);
+  box-shadow: 0 15px 26px #143f2b14;
+}
+.masjid-construction-module__NQoEOG__metric-icon {
+  color: #13704c;
+  background: #eff7eb;
+  border-radius: 14px;
+  flex: none;
+  place-items: center;
+  width: 55px;
+  height: 55px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__metric-icon.masjid-construction-module__NQoEOG__gold {
+  color: #a77f3b;
+  background: #f9f1df;
+}
+.masjid-construction-module__NQoEOG__metric strong {
+  color: #0d4e42;
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: var(--font-weight-emphasis);
+  display: block;
+}
+.masjid-construction-module__NQoEOG__metric span {
+  color: #1b4237;
+  font-size: 13px;
+  font-weight: var(--font-weight-emphasis);
+}
+.masjid-construction-module__NQoEOG__metric small {
+  color: #8a998f;
+  margin-top: 3px;
+  font-size: 11px;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__browse-band {
+  background: #e9f1e7;
+  border: 1px solid #dbe8d7;
+  border-radius: 16px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+  padding: 20px 24px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__browse-band strong {
+  font-size: 15px;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__browse-band p {
+  color: #688074;
+  margin-top: 4px;
+  font-size: 12px;
+}
+.masjid-construction-module__NQoEOG__browse-band
+  .masjid-construction-module__NQoEOG__button {
+  box-shadow: none;
+}
+.masjid-construction-module__NQoEOG__location-tip {
+  color: #829187;
+  margin-top: 14px;
+  font-size: 11px;
+}
+.masjid-construction-module__NQoEOG__videos-section {
+  background: #fefcf7;
+  padding: 85px 0;
+}
+.masjid-construction-module__NQoEOG__video-grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__video-card {
+  background: #fff;
+  border: 1px solid #eeeee6;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px #1e43280b;
+}
+.masjid-construction-module__NQoEOG__video-image {
+  aspect-ratio: 1.92;
+  background: #e8e5d8;
+  border: 0;
+  width: 100%;
+  padding: 0;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.masjid-construction-module__NQoEOG__video-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+}
+.masjid-construction-module__NQoEOG__video-image:hover img {
+  transform: scale(1.035);
+}
+.masjid-construction-module__NQoEOG__video-image:after {
+  content: "";
+  background: linear-gradient(#0000 50%, #09231c42);
+  position: absolute;
+  inset: 0;
+}
+.masjid-construction-module__NQoEOG__play {
+  color: #fff;
+  z-index: 2;
+  background: #091c1db8;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  place-items: center;
+  width: 47px;
+  height: 47px;
+  display: grid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 16px #0004;
+}
+.masjid-construction-module__NQoEOG__video-card-info {
+  padding: 15px 16px 19px;
+}
+.masjid-construction-module__NQoEOG__video-card-info strong {
+  margin-bottom: 4px;
+  font-size: 15px;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__video-card-info p {
+  color: #81938c;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.masjid-construction-module__NQoEOG__video-demo {
+  font-size: 10px;
+  font-weight: var(--font-weight-emphasis);
+  color: #ad8a49;
+  margin-top: 9px;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__why-section {
+  background: #fff;
+}
+.masjid-construction-module__NQoEOG__why-grid {
+  grid-template-columns: 0.86fr 1.14fr;
+  align-items: center;
+  gap: 64px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__why-grid h2 {
+  margin: 10px 0 18px;
+  font-size: clamp(33px, 3.6vw, 50px);
+  line-height: 1.23;
+}
+.masjid-construction-module__NQoEOG__why-grid p {
+  color: #6a7c75;
+  font-size: 14px;
+}
+.masjid-construction-module__NQoEOG__quote {
+  color: #4f614e;
+  border-left: 3px solid #b99b5d;
+  margin: 22px 0 0;
+  padding-left: 18px;
+  font-family: Georgia, serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.masjid-construction-module__NQoEOG__why-cards {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__why-card {
+  background: #fafcf8;
+  border: 1px solid #e8eee6;
+  border-radius: 13px;
+  min-height: 146px;
+  padding: 21px;
+}
+.masjid-construction-module__NQoEOG__why-card svg {
+  color: #12664f;
+  margin-bottom: 12px;
+}
+.masjid-construction-module__NQoEOG__why-card strong {
+  font-size: 14px;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__why-card p {
+  margin-top: 7px;
+  font-size: 11px;
+  line-height: 1.65;
+}
+.masjid-construction-module__NQoEOG__faq-section {
+  background: #fbf8f1;
+}
+.masjid-construction-module__NQoEOG__faq-layout {
+  grid-template-columns: 0.85fr 1.15fr;
+  align-items: start;
+  gap: 70px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__faq-layout h2 {
+  margin: 12px 0;
+  font-size: 42px;
+  line-height: 1.15;
+}
+.masjid-construction-module__NQoEOG__faq-list details {
+  background: #fff;
+  border: 1px solid #edece3;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.masjid-construction-module__NQoEOG__faq-list summary {
+  font-weight: var(--font-weight-emphasis);
+  cursor: pointer;
+  padding: 18px 20px;
+  font-size: 13px;
+  list-style: none;
+  position: relative;
+}
+.masjid-construction-module__NQoEOG__faq-list summary:after {
+  content: "+";
+  color: #26654b;
+  font-size: 20px;
+  position: absolute;
+  top: 12px;
+  right: 19px;
+}
+.masjid-construction-module__NQoEOG__faq-list details[open] summary:after {
+  content: "−";
+}
+.masjid-construction-module__NQoEOG__faq-list details p {
+  color: #70847c;
+  border-top: 1px solid #f0eee7;
+  padding: 10px 20px 20px;
+  font-size: 12px;
+}
+.masjid-construction-module__NQoEOG__bottom-cta {
+  background: var(--green);
+  color: #fff;
+  padding: 40px 0;
+}
+.masjid-construction-module__NQoEOG__bottom-cta-content {
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__bottom-cta h2 {
+  margin: 7px 0;
+  font-size: 36px;
+}
+.masjid-construction-module__NQoEOG__bottom-cta
+  .masjid-construction-module__NQoEOG__eyebrow {
+  color: #ccddb4;
+}
+.masjid-construction-module__NQoEOG__dialog {
+  background: #fff;
+  border-radius: 19px;
+  max-height: min(90vh, 900px);
+  padding: 28px;
+  overflow: auto;
+  box-shadow: 0 30px 100px #001b174d;
+}
+.masjid-construction-module__NQoEOG__dialog.masjid-construction-module__NQoEOG__wide-dialog {
+  width: min(940px, 100%);
+}
+.masjid-construction-module__NQoEOG__dialog h2 {
+  margin: 9px 0 10px;
+  font-size: 31px;
+}
+.masjid-construction-module__NQoEOG__dialog p {
+  color: #71857c;
+  font-size: 12px;
+}
+.masjid-construction-module__NQoEOG__modal-amount {
+  background: #eff7eb;
+  border-radius: 13px;
+  margin: 24px 0;
+  padding: 17px;
+}
+.masjid-construction-module__NQoEOG__modal-amount strong {
+  color: var(--green);
+  font-size: 28px;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__modal-amount small {
+  color: #668175;
+  margin-top: 4px;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__searchline {
+  grid-template-columns: minmax(150px, 1fr) auto;
+  gap: 10px;
+  margin: 20px 0 13px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__searchline input {
+  border: 1px solid #dce5dd;
+  border-radius: 10px;
+  width: 100%;
+  min-width: 0;
+  padding: 13px 15px;
+}
+.masjid-construction-module__NQoEOG__filter-pills {
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0 0 15px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__filter-pills button {
+  color: #577465;
+  font-size: 11px;
+  font-weight: var(--font-weight-emphasis);
+  background: #f4f7f1;
+  border: 1px solid #e1e7df;
+  border-radius: 999px;
+  padding: 9px 14px;
+}
+.masjid-construction-module__NQoEOG__filter-pills
+  button.masjid-construction-module__NQoEOG__active {
+  color: #fff;
+  background: #0b654f;
+  border-color: #0b654f;
+}
+.masjid-construction-module__NQoEOG__demo-banner {
+  color: #88661e;
+  background: #fff8e7;
+  border: 1px solid #ead5a7;
+  border-radius: 10px;
+  margin: 13px 0;
+  padding: 11px 13px;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.masjid-construction-module__NQoEOG__location-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__location-item {
+  background: #fdfefb;
+  border: 1px solid #e2e9df;
+  border-radius: 13px;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 17px;
+  display: flex;
+}
+.masjid-construction-module__NQoEOG__location-item
+  .masjid-construction-module__NQoEOG__round {
+  color: #0f754c;
+  background: #e9f3e8;
+  border-radius: 50%;
+  flex: none;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__location-item h4 {
+  margin: 0 0 5px;
+  font-size: 13px;
+}
+.masjid-construction-module__NQoEOG__location-item p {
+  font-size: 11px;
+}
+.masjid-construction-module__NQoEOG__location-item
+  .masjid-construction-module__NQoEOG__mini-status {
+  font-size: 9px;
+  font-weight: var(--font-weight-emphasis);
+  color: #188559;
+  margin-top: 8px;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__location-item
+  .masjid-construction-module__NQoEOG__mini-status.masjid-construction-module__NQoEOG__under {
+  color: #a17738;
+}
+.masjid-construction-module__NQoEOG__location-item a {
+  font-weight: var(--font-weight-emphasis);
+  color: #126453;
+  text-underline-offset: 3px;
+  margin-top: 11px;
+  font-size: 10px;
+  text-decoration: underline;
+  display: inline-block;
+}
+.masjid-construction-module__NQoEOG__location-empty {
+  color: #658276;
+  text-align: center;
+  background: #f3f7f2;
+  border-radius: 10px;
+  grid-column: 1/-1;
+  padding: 25px;
+}
+.masjid-construction-module__NQoEOG__video-placeholder {
+  text-align: center;
+  color: #1d6250;
+  background: linear-gradient(135deg, #eff4e8, #f9f0db);
+  border-radius: 14px;
+  place-items: center;
+  gap: 10px;
+  min-height: 230px;
+  margin: 17px 0;
+  padding: 25px;
+  display: grid;
+}
+.masjid-construction-module__NQoEOG__video-placeholder svg {
+  width: 50px;
+  height: 50px;
+}
+.masjid-construction-module__NQoEOG__video-placeholder strong {
+  font-size: 15px;
+}
+.masjid-construction-module__NQoEOG__video-placeholder span {
+  color: #72887c;
+  font-size: 11px;
+}
+.masjid-construction-module__NQoEOG__dialog iframe {
+  aspect-ratio: 16/9;
+  border: 0;
+  border-radius: 12px;
+  width: 100%;
+  margin-top: 17px;
+  display: block;
+}
+@media (max-width: 1100px) {
+  .masjid-construction-module__NQoEOG__container {
+    width: min(1300px, 100% - 56px);
+  }
+  .masjid-construction-module__NQoEOG__hero-grid {
+    grid-template-columns: minmax(0, 1.09fr) minmax(350px, 0.91fr);
+    gap: 27px;
+  }
+  .masjid-construction-module__NQoEOG__hero h1 {
+    font-size: clamp(44px, 5vw, 60px);
+  }
+  .masjid-construction-module__NQoEOG__hero-stats
+    .masjid-construction-module__NQoEOG__stat-icon {
+    width: 36px;
+    height: 36px;
+  }
+  .masjid-construction-module__NQoEOG__hero-stats
+    .masjid-construction-module__NQoEOG__stat {
+    gap: 7px;
+    padding: 8px 6px;
+  }
+  .masjid-construction-module__NQoEOG__hero-stats
+    .masjid-construction-module__NQoEOG__stat
+    strong {
+    font-size: 20px;
+  }
+  .masjid-construction-module__NQoEOG__project-shell {
+    grid-template-columns: 1fr 1fr;
+  }
+  .masjid-construction-module__NQoEOG__project-funding {
+    flex-flow: wrap;
+    grid-column: 1/-1;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .masjid-construction-module__NQoEOG__project-funding > * {
+    flex: 1;
+    min-width: 100px;
+  }
+  .masjid-construction-module__NQoEOG__project-funding
+    .masjid-construction-module__NQoEOG__progress-track {
+    min-width: 150px;
+  }
+  .masjid-construction-module__NQoEOG__project-funding
+    .masjid-construction-module__NQoEOG__button {
+    flex: none;
+  }
+}
+@media (max-width: 860px) {
+  .masjid-construction-module__NQoEOG__hero-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-top: 30px;
+  }
+  .masjid-construction-module__NQoEOG__hero-left {
+    min-height: 650px;
+    padding-top: 5px;
+  }
+  .masjid-construction-module__NQoEOG__hero-photo {
+    height: 440px;
+    left: -28px;
+    right: -28px;
+  }
+  .masjid-construction-module__NQoEOG__hero-stats {
+    bottom: 24px;
+  }
+  .masjid-construction-module__NQoEOG__donation-card {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto 50px;
+  }
+  .masjid-construction-module__NQoEOG__hero:before {
+    left: auto;
+    right: -100px;
+  }
+  .masjid-construction-module__NQoEOG__project-shell {
+    grid-template-columns: 1fr 1fr;
+  }
+  .masjid-construction-module__NQoEOG__project-copy {
+    grid-column: 1/-1;
+  }
+  .masjid-construction-module__NQoEOG__project-image {
+    min-height: 240px;
+  }
+  .masjid-construction-module__NQoEOG__project-funding {
+    flex-direction: column;
+    grid-column: auto;
+    align-items: stretch;
+    display: flex;
+  }
+  .masjid-construction-module__NQoEOG__video-grid {
+    gap: 12px;
+  }
+  .masjid-construction-module__NQoEOG__location-overview {
+    gap: 10px;
+  }
+  .masjid-construction-module__NQoEOG__metric {
+    gap: 10px;
+    padding: 17px 12px;
+  }
+  .masjid-construction-module__NQoEOG__metric-icon {
+    width: 42px;
+    height: 42px;
+  }
+  .masjid-construction-module__NQoEOG__metric strong {
+    font-size: 22px;
+  }
+  .masjid-construction-module__NQoEOG__why-grid,
+  .masjid-construction-module__NQoEOG__faq-layout {
+    gap: 30px;
+  }
+}
+@media (max-width: 620px) {
+  .masjid-construction-module__NQoEOG__container {
+    width: calc(100% - 34px);
+  }
+  .masjid-construction-module__NQoEOG__hero-grid {
+    gap: 0;
+    padding-top: 20px;
+  }
+  .masjid-construction-module__NQoEOG__hero-left {
+    min-height: 665px;
+  }
+  .masjid-construction-module__NQoEOG__hero-intro {
+    padding: 0 2px;
+  }
+  .masjid-construction-module__NQoEOG__hero h1 {
+    letter-spacing: -0.06em;
+    margin: 18px 0 13px;
+    font-size: clamp(42px, 10.8vw, 57px);
+  }
+  .masjid-construction-module__NQoEOG__hero p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .masjid-construction-module__NQoEOG__hero-actions {
+    gap: 10px;
+    margin-top: 18px;
+  }
+  .masjid-construction-module__NQoEOG__hero-actions
+    .masjid-construction-module__NQoEOG__button {
+    padding: 14px 15px;
+    font-size: 12px;
+  }
+  .masjid-construction-module__NQoEOG__hero-actions
+    .masjid-construction-module__NQoEOG__text-btn {
+    font-size: 12px;
+  }
+  .masjid-construction-module__NQoEOG__hero-photo {
+    height: 430px;
+    left: -17px;
+    right: -17px;
+  }
+  .masjid-construction-module__NQoEOG__hero-stats {
+    gap: 0;
+    padding: 7px;
+    bottom: 24px;
+  }
+  .masjid-construction-module__NQoEOG__hero-stats
+    .masjid-construction-module__NQoEOG__stat {
+    text-align: center;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px 3px;
+    display: flex;
+  }
+  .masjid-construction-module__NQoEOG__hero-stats
+    .masjid-construction-module__NQoEOG__stat-icon {
+    width: 33px;
+    height: 33px;
+  }
+  .masjid-construction-module__NQoEOG__hero-stats
+    .masjid-construction-module__NQoEOG__stat
+    strong {
+    font-size: 20px;
+  }
+  .masjid-construction-module__NQoEOG__hero-stats
+    .masjid-construction-module__NQoEOG__stat
+    small {
+    margin: 2px 0 0;
+    font-size: 8px;
+  }
+  .masjid-construction-module__NQoEOG__donation-card {
+    margin-bottom: 39px;
+    padding: 22px 18px;
+  }
+  .masjid-construction-module__NQoEOG__donation-card h2 {
+    font-size: 25px;
+  }
+  .masjid-construction-module__NQoEOG__amounts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .masjid-construction-module__NQoEOG__amounts button {
+    min-height: 63px;
+    padding: 11px 5px;
+  }
+  .masjid-construction-module__NQoEOG__amounts strong {
+    font-size: 13px;
+  }
+  .masjid-construction-module__NQoEOG__section {
+    padding: 58px 0;
+  }
+  .masjid-construction-module__NQoEOG__current-section,
+  .masjid-construction-module__NQoEOG__videos-section {
+    padding: 59px 0;
+  }
+  .masjid-construction-module__NQoEOG__section-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .masjid-construction-module__NQoEOG__section-head h2 {
+    font-size: 35px;
+  }
+  .masjid-construction-module__NQoEOG__project-shell {
+    padding: 13px;
+    display: block;
+  }
+  .masjid-construction-module__NQoEOG__project-copy {
+    padding: 12px 10px 16px;
+  }
+  .masjid-construction-module__NQoEOG__project-copy h3 {
+    font-size: 27px;
+  }
+  .masjid-construction-module__NQoEOG__project-image {
+    height: 260px;
+    margin-bottom: 13px;
+  }
+  .masjid-construction-module__NQoEOG__project-funding {
+    gap: 11px;
+    padding: 17px;
+  }
+  .masjid-construction-module__NQoEOG__location-overview {
+    grid-template-columns: 1fr;
+  }
+  .masjid-construction-module__NQoEOG__metric {
+    padding: 14px 15px;
+  }
+  .masjid-construction-module__NQoEOG__metric strong {
+    font-size: 26px;
+  }
+  .masjid-construction-module__NQoEOG__browse-band {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px;
+  }
+  .masjid-construction-module__NQoEOG__video-grid {
+    grid-template-columns: 1fr;
+  }
+  .masjid-construction-module__NQoEOG__video-image {
+    aspect-ratio: 2.1;
+  }
+  .masjid-construction-module__NQoEOG__why-grid,
+  .masjid-construction-module__NQoEOG__faq-layout {
+    grid-template-columns: 1fr;
+  }
+  .masjid-construction-module__NQoEOG__why-cards {
+    gap: 9px;
+  }
+  .masjid-construction-module__NQoEOG__why-card {
+    padding: 15px;
+  }
+  .masjid-construction-module__NQoEOG__why-card strong {
+    font-size: 12px;
+  }
+  .masjid-construction-module__NQoEOG__why-card p {
+    font-size: 10px;
+  }
+  .masjid-construction-module__NQoEOG__why-grid h2,
+  .masjid-construction-module__NQoEOG__faq-layout h2 {
+    font-size: 37px;
+  }
+  .masjid-construction-module__NQoEOG__bottom-cta
+    .masjid-construction-module__NQoEOG__button {
+    margin-top: 12px;
+  }
+  .masjid-construction-module__NQoEOG__bottom-cta h2 {
+    font-size: 31px;
+  }
+  .masjid-construction-module__NQoEOG__location-list {
+    grid-template-columns: 1fr;
+  }
+  .masjid-construction-module__NQoEOG__dialog {
+    padding: 22px 17px;
+  }
+  .masjid-construction-module__NQoEOG__dialog h2 {
+    font-size: 26px;
+  }
+  .masjid-construction-module__NQoEOG__searchline {
+    grid-template-columns: 1fr;
+  }
+  .masjid-construction-module__NQoEOG__searchline
+    .masjid-construction-module__NQoEOG__button {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .masjid-construction-module__NQoEOG__page *,
+  .masjid-construction-module__NQoEOG__page :before,
+  .masjid-construction-module__NQoEOG__page :after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+.masjid-construction-module__NQoEOG__page {
+  --muted: #657976;
+  font-family: var(--font-poppins), sans-serif;
+}
+.masjid-construction-module__NQoEOG__page section,
+.masjid-construction-module__NQoEOG__donation-card {
+  scroll-margin-top: 120px;
+}
+.masjid-construction-module__NQoEOG__page button {
+  cursor: pointer;
+}
+.masjid-construction-module__NQoEOG__page button:focus-visible {
+  outline-offset: 3px;
+  outline: 3px solid #eebd57;
+}
+.masjid-construction-module__NQoEOG__dialog {
+  width: calc(100% - 32px);
+  max-width: 630px;
+  padding-top: 38px;
+  display: block;
+}
+.masjid-construction-module__NQoEOG__dialog.masjid-construction-module__NQoEOG__wide-dialog {
+  width: calc(100% - 32px);
+  max-width: 940px;
+}
+.masjid-construction-module__NQoEOG__hero-intro {
+  animation: 0.6s ease-out both masjid-construction-module__NQoEOG__enter;
+}
+.masjid-construction-module__NQoEOG__donation-card {
+  animation: 0.7s ease-out 0.12s both masjid-construction-module__NQoEOG__enter;
+}
+@keyframes masjid-construction-module__NQoEOG__enter {
+  0% {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"] {
+  --font-weight-emphasis: 700;
+  font-family: var(--font-urdu), serif;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"] :is(h1, h2, h3) {
+  font-family: var(--font-urdu), serif;
+  letter-spacing: 0;
+  line-height: 1.9;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__stat,
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__metric {
+  text-align: right;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__stat {
+  border-right: 0;
+  border-inline-end: 1px solid #e9eadf;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__stat:last-child {
+  border-inline-end: 0;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__quote {
+  border-left: 0;
+  padding-left: 0;
+  border-inline-start: 3px solid #b99b5d;
+  padding-inline-start: 18px;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__faq-list
+  summary {
+  padding-inline-end: 44px;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__faq-list
+  summary:after {
+  right: auto;
+  inset-inline-end: 19px;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__hero-left {
+  min-height: 820px;
+}
+@media (max-width: 620px) {
+  .masjid-construction-module__NQoEOG__page[dir="rtl"]
+    .masjid-construction-module__NQoEOG__hero-left {
+    min-height: 750px;
+  }
+  .masjid-construction-module__NQoEOG__donation-top {
+    flex-wrap: wrap;
+  }
+  .masjid-construction-module__NQoEOG__hero-stat-note {
+    bottom: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .masjid-construction-module__NQoEOG__page *,
+  .masjid-construction-module__NQoEOG__page :before,
+  .masjid-construction-module__NQoEOG__page :after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+.masjid-construction-module__NQoEOG__page
+  a.masjid-construction-module__NQoEOG__button {
+  color: #fff;
+}
+.masjid-construction-module__NQoEOG__page
+  a.masjid-construction-module__NQoEOG__button.masjid-construction-module__NQoEOG__secondary,
+.masjid-construction-module__NQoEOG__page
+  a.masjid-construction-module__NQoEOG__text-btn {
+  color: var(--green);
+}
+.masjid-construction-module__NQoEOG__location-item h3 {
+  letter-spacing: normal;
+  margin-bottom: 5px;
+  font-family: inherit;
+  font-size: 13px;
+}
+.masjid-construction-module__NQoEOG__page {
+  min-width: 0;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"] {
+  line-height: 2.2;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__hero
+  h1 {
+  font-size: 44px;
+  line-height: 1.9;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__hero
+  p {
+  font-size: 15px;
+  line-height: 2.4;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  :is(
+    .masjid-construction-module__NQoEOG__eyebrow,
+    .masjid-construction-module__NQoEOG__pill
+  ) {
+  letter-spacing: 0;
+  font-size: 12px;
+  line-height: 2;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  :is(
+    .masjid-construction-module__NQoEOG__secure,
+    .masjid-construction-module__NQoEOG__hero-stat-note,
+    .masjid-construction-module__NQoEOG__form-subtext,
+    .masjid-construction-module__NQoEOG__donation-foot,
+    .masjid-construction-module__NQoEOG__location-tip,
+    .masjid-construction-module__NQoEOG__video-demo,
+    .masjid-construction-module__NQoEOG__payment-warning,
+    .masjid-construction-module__NQoEOG__draft-tag,
+    .masjid-construction-module__NQoEOG__tag,
+    .masjid-construction-module__NQoEOG__image-label,
+    .masjid-construction-module__NQoEOG__mini-status
+  ) {
+  font-size: 12px;
+  line-height: 2.3;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"] small {
+  font-size: 11px;
+  line-height: 2.2;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  :is(button, .masjid-construction-module__NQoEOG__button) {
+  line-height: 2.3;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__hero-stat-note {
+  inset-inline-start: 8px;
+  max-width: 90%;
+  bottom: 14px;
+}
+@media (max-width: 620px) {
+  .masjid-construction-module__NQoEOG__bottom-cta-content {
+    display: block;
+  }
+  .masjid-construction-module__NQoEOG__page[dir="rtl"]
+    .masjid-construction-module__NQoEOG__hero
+    h1 {
+    font-size: 32px;
+    line-height: 2;
+  }
+  .masjid-construction-module__NQoEOG__page[dir="rtl"]
+    .masjid-construction-module__NQoEOG__hero-left {
+    min-height: 820px;
+  }
+  .masjid-construction-module__NQoEOG__page[dir="rtl"]
+    .masjid-construction-module__NQoEOG__hero-photo {
+    height: 400px;
+  }
+  .masjid-construction-module__NQoEOG__page[dir="rtl"]
+    .masjid-construction-module__NQoEOG__hero-stats {
+    bottom: 56px;
+  }
+  .masjid-construction-module__NQoEOG__page[dir="rtl"]
+    .masjid-construction-module__NQoEOG__hero-stat-note {
+    font-size: 10px;
+    bottom: 53px;
+  }
+  .masjid-construction-module__NQoEOG__page[dir="rtl"]
+    .masjid-construction-module__NQoEOG__hero-stats
+    small {
+    font-size: 9px;
+  }
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__donation-lead {
+  font-size: 13px !important;
+  line-height: 2.4 !important;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  :is(
+    .masjid-construction-module__NQoEOG__sadaqah-note p,
+    .masjid-construction-module__NQoEOG__video-card-info p,
+    .masjid-construction-module__NQoEOG__why-card p,
+    .masjid-construction-module__NQoEOG__faq-list details p,
+    .masjid-construction-module__NQoEOG__location-item p
+  ) {
+  font-size: 13px;
+  line-height: 2.3;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  .masjid-construction-module__NQoEOG__form-label {
+  font-size: 14px;
+  line-height: 2.2;
+}
+.masjid-construction-module__NQoEOG__page[dir="rtl"]
+  :is(
+    .masjid-construction-module__NQoEOG__toggle-group button,
+    .masjid-construction-module__NQoEOG__filter-pills button
+  ) {
+  font-size: 14px;
+}
+@media (max-width: 380px) {
+  .masjid-construction-module__NQoEOG__hero h1 {
+    font-size: 32px;
+  }
+  .masjid-construction-module__NQoEOG__hero p {
+    font-size: 12px;
+  }
+  .masjid-construction-module__NQoEOG__hero-photo {
+    height: 400px;
+  }
+  .masjid-construction-module__NQoEOG__hero-actions
+    .masjid-construction-module__NQoEOG__button {
+    padding: 12px;
+    font-size: 11px;
+  }
+  .masjid-construction-module__NQoEOG__hero-actions
+    .masjid-construction-module__NQoEOG__text-btn {
+    gap: 6px;
+    font-size: 11px;
+  }
+}
