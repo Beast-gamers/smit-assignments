@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 12-13</title>
+</head>
+<body>
+<script>
+
+// ==============================
+// Q1: NUMBER, UPPERCASE OR LOWERCASE
+// ==============================
+
+var character = prompt("Enter a number or a character:");
+
+var code = character.charCodeAt(0);
+
+if (code >= 48 && code <= 57) {
+    console.log("It is a number");
+}
+else if (code >= 65 && code <= 90) {
+    console.log("It is an uppercase letter");
+}
+else if (code >= 97 && code <= 122) {
+    console.log("It is a lowercase letter");
+}
+else {
+    console.log("It is another character");
+}
+
+
+// ==============================
+// Q2: LARGER INTEGER
+// ==============================
+
+var num1 = +prompt("Enter first integer:");
+var num2 = +prompt("Enter second integer:");
+
+if (num1 > num2) {
+    console.log("The larger number is: " + num1);
+}
+else if (num2 > num1) {
+    console.log("The larger number is: " + num2);
+}
+else {
+    console.log("Both integers are equal");
+}
+
+
+// ==============================
+// Q3: POSITIVE, NEGATIVE OR ZERO
+// ==============================
+
+var number = +prompt("Enter a number:");
+
+if (number > 0) {
+    console.log("The number is positive");
+}
+else if (number < 0) {
+    console.log("The number is negative");
+}
+else {
+    console.log("The number is zero");
+}
+
+
+// ==============================
+// Q4: VOWEL CHECKER
+// ==============================
+
+var letter = prompt("Enter a single character:");
+
+if (
+    letter === "a" ||
+    letter === "e" ||
+    letter === "i" ||
+    letter === "o" ||
+    letter === "u" ||
+    letter === "A" ||
+    letter === "E" ||
+    letter === "I" ||
+    letter === "O" ||
+    letter === "U"
+) {
+    console.log(true);
+}
+else {
+    console.log(false);
+}
+
+
+// ==============================
+// Q5: PASSWORD VALIDATION
+// ==============================
+
+var correctPassword = "abc123";
+
+var userPassword = prompt("Enter your password:");
+
+if (userPassword === "") {
+    console.log("Please enter your password");
+}
+else if (userPassword === correctPassword) {
+    console.log("Correct! The password you entered matches the original password");
+}
+else {
+    console.log("Incorrect password");
+}
+
+
+// ==============================
+// Q6: FIX THE IF/ELSE STATEMENT
+// ==============================
+
+var greeting;
+var hour = 13;
+
+if (hour < 18) {
+    greeting = "Good day";
+}
+else {
+    greeting = "Good evening";
+}
+
+console.log(greeting);
+
+
+// ==============================
+// Q7: TIME GREETING
+// ==============================
+
+var time = +prompt("Enter time in 24-hour format (e.g. 1900):");
+
+if (time >= 0 && time < 1200) {
+    console.log("Good morning!");
+}
+else if (time >= 1200 && time < 1700) {
+    console.log("Good afternoon!");
+}
+else if (time >= 1700 && time < 2100) {
+    console.log("Good evening!");
+}
+else if (time >= 2100 && time <= 2359) {
+    console.log("Good night!");
+}
+else {
+    console.log("Invalid time");
+}
+
+</script>
+</body>
+</html>
