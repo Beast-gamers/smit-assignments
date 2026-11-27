@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 26-30</title>
+</head>
+<body>
+<script>
+
+var number = +prompt("Enter a positive integer:");
+
+console.log("Number: " + number);
+console.log("Round off value: " + Math.round(number));
+console.log("Floor value: " + Math.floor(number));
+console.log("Ceil value: " + Math.ceil(number));
+
+
+var number = +prompt("Enter a negative floating point number:");
+
+console.log("Number: " + number);
+console.log("Round off value: " + Math.round(number));
+console.log("Floor value: " + Math.floor(number));
+console.log("Ceil value: " + Math.ceil(number));
+
+
+var number = +prompt("Enter a number:");
+
+console.log("The absolute value of " + number + " is " + Math.abs(number));
+
+
+var dice = Math.floor(Math.random() * 6) + 1;
+
+console.log("Random dice value: " + dice);
+
+
+var coin = Math.floor(Math.random() * 2) + 1;
+
+if (coin === 1) {
+    console.log(coin);
+    console.log("Random coin value: Heads");
+}
+else {
+    console.log(coin);
+    console.log("Random coin value: Tails");
+}
+
+
+var randomNumber = Math.floor(Math.random() * 100) + 1;
+
+console.log("Random number between 1 and 100: " + randomNumber);
+
+
+var weight = prompt("Enter your weight in kilograms:");
+
+var parsedWeight = parseFloat(weight);
+
+console.log("The weight of user is " + parsedWeight + " kilograms");
+
+
+var secretNumber = Math.floor(Math.random() * 10) + 1;
+
+var guess = +prompt("Enter a number between 1 and 10:");
+
+if (guess === secretNumber) {
+    console.log("Congratulations! You guessed the secret number.");
+}
+else {
+    console.log("Try again!");
+}
+
+</script>
+</body>
+</html>
